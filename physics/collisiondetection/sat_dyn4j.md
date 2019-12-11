@@ -1,6 +1,5 @@
 # SAT (Separating Axis Theorem) - DYN4J
-Posted on January 1, 2010  |  http://www.dyn4j.org/2010/01/sat/
-TAGS: a b c
+Posted on January 1, 2010  /  <http://www.dyn4j.org/2010/01/sat/>
 
 本篇文章是我一段时间以来一直想做的，但却一直没有开始。首先我想说的是 网络上有大量的资源关于此碰撞检测算法。但问题是 在我看到的有效资源中 有很多资源对实现细节的解释常常较为含糊不清。
 
