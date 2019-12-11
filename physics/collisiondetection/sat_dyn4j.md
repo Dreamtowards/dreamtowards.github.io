@@ -1,4 +1,5 @@
-# SAT (Separating Axis Theorem) - DYN4J
+SAT (Separating Axis Theorem) - DYN4J
+==
 
 Posted on January 1, 2010  |  http://www.dyn4j.org/2010/01/sat/
 
