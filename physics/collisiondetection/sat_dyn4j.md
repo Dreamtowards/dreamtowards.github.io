@@ -139,7 +139,7 @@ for (int i = 0; i < axes1.length; i++) {
     return false;
   }
 }
-// loop over the axes2
+// 遍历axes2
 for (int i = 0; i < axes2.length; i++) {
   Axis axis = axes2[i];
   // 将两个形状都投影在该轴上
@@ -156,4 +156,79 @@ for (int i = 0; i < axes2.length; i++) {
 return true;
 ```
 
+## 投影一个形状到一个轴
+另一个还不清楚的事情是 如何将一个形状投影在一个轴上。投影一个多边形到一个轴上是相对简单的。遍历所有顶点 对其与轴进行点乘 并存储最小值和最大值
 
+```java
+double min = axis.dot(shape.vertices[0]);
+double max = min;
+for (int i = 1; i < shape.vertices.length; i++) {
+  // 注意: 轴必须被标准化以获得准的投影
+  double p = axis.dot(shape.vertices[i]);
+  if (p < min) {
+    min = p;
+  } else if (p > max) {
+    max = p;
+  }
+}
+Projection proj = new Projection(min, max);
+return proj;
+```
+
+## 寻找MTV
+到目前为止 若两个形状相交 我们只会返回true或false。除此之外，SAT可以返回一个最小变换向量(MTV Minimum Translation Vector)。MTV是用于将(两个)形状推出碰撞的最小模度向量。若我们回看Figure.7 我们可以发现 C轴有着最小的交叠。那个轴及其交叠则为MTV，轴为矢量部分，而交叠为模部分。
+
+为确定形状是否为相交状态 我们必须遍历两个形状的所有轴，因此 我们可以同时追踪最小交叠和轴。若我们修改我们上面的伪代码以实现这一点 我们将可以在形状为互交时返回一个MTV：
+
+```java
+double overlap = // really large value;
+Axis smallest = null;
+Axis[] axes1 = shape1.getAxes();
+Axis[] axes2 = shape2.getAxes();
+// loop over the axes1
+for (int i = 0; i < axes1.length; i++) {
+  Axis axis = axes1[i];
+  // project both shapes onto the axis
+  Projection p1 = shape1.project(axis);
+  Projection p2 = shape2.project(axis);
+  // do the projections overlap?
+  if (!p1.overlap(p2)) {
+    // then we can guarantee that the shapes do not overlap
+    return false;
+  } else {
+    // get the overlap
+    double o = p1.getOverlap(p2);
+    // check for minimum
+    if (o < overlap) {
+      // then set this one as the smallest
+      overlap = o;
+      smallest = axis;
+    }
+  }
+}
+// loop over the axes2
+for (int i = 0; i < axes2.length; i++) {
+  Axis axis = axes2[i];
+  // project both shapes onto the axis
+  Projection p1 = shape1.project(axis);
+  Projection p2 = shape2.project(axis);
+  // do the projections overlap?
+  if (!p1.overlap(p2)) {
+    // then we can guarantee that the shapes do not overlap
+    return false;
+  } else {
+    // get the overlap
+    double o = p1.getOverlap(p2);
+    // check for minimum
+    if (o < overlap) {
+      // then set this one as the smallest
+      overlap = o;
+      smallest = axis;
+    }
+  }
+}
+MTV mtv = new MTV(smallest, overlap);
+// if we get here then we know that every axis had overlap on it
+// so we can guarantee an intersection
+return mtv;
+```
