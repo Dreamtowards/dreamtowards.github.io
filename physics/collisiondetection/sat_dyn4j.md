@@ -54,6 +54,7 @@ SAT可能会测试许多轴是否重叠。但是，一旦得到第一个投影�
 
 为了进一步讲解，请检查以下伪代码。
 
+```java
     Axis[] axes = // get the axes to test;
     // loop over the axes
     for (int i = 0; i < axes.length; i++) {
@@ -67,3 +68,4 @@ SAT可能会测试许多轴是否重叠。但是，一旦得到第一个投影�
         return false;
       }
     }
+```
