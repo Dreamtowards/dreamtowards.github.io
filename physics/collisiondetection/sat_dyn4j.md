@@ -55,7 +55,6 @@ SAT可能会测试许多轴是否重叠。但是，一旦得到第一个投影�
 为了进一步讲解，请检查以下伪代码。
 
 ```java
-
 Axis[] axes = // get the axes to test;
 // loop over the axes
 for (int i = 0; i < axes.length; i++) {
@@ -69,5 +68,29 @@ for (int i = 0; i < axes.length; i++) {
     return false;
   }
 }
-
 ```
+
+### 相交
+若形状的投影在所有轴上都重叠，那么我们将得知该形状为重叠状态。Figure.7描述了两个凸多边形在许多轴上的投影测试结果。该对形状在这些轴上的投影均都重叠，因此我们可以结论该对形状为重叠状态。
+
+为了确定是否相交，**所有**轴都必须要经过测试。将上面的代码修改过后为：
+
+```java
+Axis[] axes = // get the axes to test;
+// loop over the axes
+for (int i = 0; i < axes.length; i++) {
+  Axis axis = axes[i];
+  // project both shapes onto the axis
+  Projection p1 = shape1.project(axis);
+  Projection p2 = shape2.project(axis);
+  // do the projections overlap?
+  if (!p1.overlap(p2)) {
+    // then we can guarantee that the shapes do not overlap
+    return false;
+  }
+}
+// if we get here then we know that every axis had overlap on it
+// so we can guarantee an intersection
+return true;
+```
+
