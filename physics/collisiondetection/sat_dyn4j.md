@@ -1,11 +1,11 @@
 # SAT (Separating Axis Theorem) - DYN4J
 Posted on January 1, 2010  \|  <http://www.dyn4j.org/2010/01/sat/>
 
-有段时间以来我一直在想写本篇文章，但却一直没有开始。首先我想说的是 网络上有大量的资源关于此碰撞检测算法。但问题是 在我看到的有效资源中 有很多资源对实现细节的解释常常较为含糊不清。
+有段时间以来我一直在想写本篇文章，但却一直没有开始。首先我想说的是 网络上有大量关于此碰撞检测算法的资源。但问题在于 在我看到的有效资源中 有很多资源对实现细节的解释常常较为含糊不清。
 
-遂我计划去讲解此算法 并且填补一些空白对于我自己在实现中所遇到的。
+遂我计划去讲解此算法 并且填补一些在我自己实现中所遇到的空白。
 
-首先我要说"[这里](http://www.metanetsoftware.com/technique/tutorialA.html)"是一个很棒的教程 其中带有可互交的Flash实例。
+我要说"[这里](http://www.metanetsoftware.com/technique/tutorialA.html)"是一个很棒的教程 其中带有可互交的Flash实例。
 
 1. 介绍
 2. 凸多边形
