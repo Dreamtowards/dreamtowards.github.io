@@ -11,7 +11,7 @@ Posted on January 1, 2010  \|  <http://www.dyn4j.org/2010/01/sat/>
 2. 凸多边形
 3. 投影 (Projection
 4. 算法
-    1. 不相交 (No Intersection
+    1. 无相交 (No Intersection
     2. 相交
 5. 获取分离轴
 6. 投影一个形状到一个轴
@@ -39,9 +39,9 @@ SAT使用的下一个概念是投影。想象一下，你有一个光线完全�
 ![figure4](attach/sat_figure4.png)
 
 ## 算法
-SAT指出：“**若两个凸多边形没有穿透，则存在一个物体的投影不会重叠的轴。**”
+SAT指出：“**若两个凸多边形没有相交，则存在一个对象的投影不会重叠的轴。**”
 
-### 不相交
+### 无相交
 首先让我们讨论一下SAT是如何确定两个形状为不相交的。从Figure.5中我们知道这两个形状是不相交的。一条画在他们之间的直线说明了这一点。
 
 ![figure5](attach/sat_figure5.png)
