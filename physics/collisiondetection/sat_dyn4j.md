@@ -55,17 +55,19 @@ SAT可能会测试许多轴是否重叠。但是，一旦得到第一个投影�
 为了进一步讲解，请检查以下伪代码。
 
 ```java
-    Axis[] axes = // get the axes to test;
-    // loop over the axes
-    for (int i = 0; i < axes.length; i++) {
-      Axis axis = axes[i];
-      // project both shapes onto the axis
-      Projection p1 = shape1.project(axis);
-      Projection p2 = shape2.project(axis);
-      // do the projections overlap?
-      if (!p1.overlap(p2)) {
-        // then we can guarantee that the shapes do not overlap
-        return false;
-      }
-    }
+
+Axis[] axes = // get the axes to test;
+// loop over the axes
+for (int i = 0; i < axes.length; i++) {
+  Axis axis = axes[i];
+  // project both shapes onto the axis
+  Projection p1 = shape1.project(axis);
+  Projection p2 = shape2.project(axis);
+  // do the projections overlap?
+  if (!p1.overlap(p2)) {
+    // then we can guarantee that the shapes do not overlap
+    return false;
+  }
+}
+
 ```
