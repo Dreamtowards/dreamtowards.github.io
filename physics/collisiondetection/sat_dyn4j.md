@@ -48,4 +48,22 @@ SAT指出：“若两个凸多边形没有穿透，则存在一个物体的投�
 
 若我们选择在Figure.5中分离两个形状的那条直线上做垂线，并将两个形状投影于该垂线上，我们将可以看到他们的投影将不会交叠。一条形状的投影间不重叠的线称之为分离轴。在Figure.6中 深灰色直线为分离轴，而相应的彩色线为对应形状在该分离轴上的投影。请注意，在figure.6中 投影没有相交，因此根据SAT规则 形状为不相交状态。
 
-![figure](attach_sat_figure6.png)
+![figure6](attach/sat_figure6.png)
+
+SAT可能会测试许多轴是否重叠。但是，一旦得到第一个投影不重叠的轴，算法则可即刻退出 并确定形状为不相交。由于这种早期退出，SAT非常适合用于具有许多对象但几乎没有碰撞的应用程序(例游戏，模拟等)。
+
+为了进一步讲解，请检查以下伪代码。
+
+    Axis[] axes = // get the axes to test;
+    // loop over the axes
+    for (int i = 0; i < axes.length; i++) {
+      Axis axis = axes[i];
+      // project both shapes onto the axis
+      Projection p1 = shape1.project(axis);
+      Projection p2 = shape2.project(axis);
+      // do the projections overlap?
+      if (!p1.overlap(p2)) {
+        // then we can guarantee that the shapes do not overlap
+        return false;
+      }
+    }
