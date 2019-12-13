@@ -181,54 +181,83 @@ return proj;
 为确定形状是否为相交状态 我们必须遍历两个形状的所有轴，因此 我们可以同时追踪最小交叠和轴。若我们修改我们上面的伪代码以实现这一点 我们将可以在形状为互交时返回一个MTV：
 
 ```java
-double overlap = // really large value;
+double overlap = // 一个超大的初始值;
 Axis smallest = null;
 Axis[] axes1 = shape1.getAxes();
 Axis[] axes2 = shape2.getAxes();
-// loop over the axes1
+// 遍历axes1
 for (int i = 0; i < axes1.length; i++) {
   Axis axis = axes1[i];
-  // project both shapes onto the axis
+  // 将两个形状都投影在该轴上
   Projection p1 = shape1.project(axis);
   Projection p2 = shape2.project(axis);
-  // do the projections overlap?
+  // 投影重叠了吗。。？
   if (!p1.overlap(p2)) {
-    // then we can guarantee that the shapes do not overlap
+    // 那么我们可以确保形状没有重叠
     return false;
   } else {
-    // get the overlap
+    // 获取交叠
     double o = p1.getOverlap(p2);
-    // check for minimum
+    // 检查最小值
     if (o < overlap) {
-      // then set this one as the smallest
+      // 那么将最小值设置为此
       overlap = o;
       smallest = axis;
     }
   }
 }
-// loop over the axes2
+// 遍历axes2
 for (int i = 0; i < axes2.length; i++) {
   Axis axis = axes2[i];
-  // project both shapes onto the axis
+  // 将两个形状都投影在该轴上
   Projection p1 = shape1.project(axis);
   Projection p2 = shape2.project(axis);
-  // do the projections overlap?
+  // 投影重叠了吗。。？
   if (!p1.overlap(p2)) {
-    // then we can guarantee that the shapes do not overlap
+    // 那么我们可以确保形状没有重叠
     return false;
   } else {
-    // get the overlap
+    // 获取交叠
     double o = p1.getOverlap(p2);
-    // check for minimum
+    // 检查最小值
     if (o < overlap) {
-      // then set this one as the smallest
+      // 那么将最小值设置为此
       overlap = o;
       smallest = axis;
     }
   }
 }
 MTV mtv = new MTV(smallest, overlap);
-// if we get here then we know that every axis had overlap on it
-// so we can guarantee an intersection
+// 若我们到达这里，那么我们将知道每个轴都有所重叠
+// 所以我们可以确保相交
 return mtv;
 ```
+
+## 弯曲的形状
+我们已经知道了如何用SAT对多边形进行测试，但像圆这样弯曲的形状呢？弯曲的形状给SAT带来了一个问题 因为弯曲的形状有无数的分离轴需要测试。通常 通过拆分Circle vs Circle和Circle vs Ploygon的测试并做一些更特定的工作来解决此问题。另一个方法是完全不使用曲面形状而用高顶点数的多边形取而代之。第二个方法不需用改变以上伪代码，但是 我确实想介绍第一种选择。
+
+让我们先来看一下Circle vs Circle。通常你会做些像这样的事情：
+```java
+Vector c1 = circle1.getCenter();
+Vector c2 = circle2.getCenter();
+Vector v = c1.subtract(c2);
+if (v.getMagnitude() < circle1.getRadius() + circle2.getRadius()) {
+  // 那么为相交
+}
+// 否则没有相交
+```
+
+我们知道，若圆心之间的距离比圆的半径之和更小，则两个圆会发生碰撞。该测试实际上是类似SAT的测试。为了在SAT中达到这一目标，我们可以执行以下操作：
+
+```java
+Vector[] axes = new Vector[1];
+if (shape1.isCircle() && shape2.isCircle()) {
+  // 两个圆只有一个轴测试
+  axes[0] = shape1.getCenter().subtract(shape2.getCenter);
+}
+// 然后是上面的所有SAT代码
+```
+
+Circle vs Polygon带来了更多的问题。中心到中心测试对于多边形轴是不够的（实际上可以忽略掉中心对中心测试了）。在这种情况下 你必须包含另外的轴：从多边形上离圆心最近的顶点的轴。多边形上最接近的顶点可以通过多种方式找到，公认的解决方案是使用沃罗诺伊域(Voronoi regions)，对此我将不在本文中讨论。
+
+其他的曲面形状将有着更大的问题 并必须被用他们自己的特定方式处理。例如一个胶囊体可以被分解为一个长方形和两个圆形。
