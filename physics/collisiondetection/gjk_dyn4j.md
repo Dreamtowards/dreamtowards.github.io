@@ -41,6 +41,10 @@ GJK算法很大程度上依赖于一个称为明可夫斯基和的概念。明�
 
 让我们看一个例子，执行明可夫斯基差于Figure.1的两个形状上，你将会得到Figure.2的形状。请注意返回的形状包含原点，这是因为这两个形状是相交的。
 
+![figure1](attach/gjk_figure1.png)
+
+![figure2](attach/gjk_figure2.png)
+
 现在执行该操作需要 shape1.vertices.size * shape2.vertices.size * 2 个减法。这一点是重要的，因为一个形状是由无数的点组成。因为这两个形状都是凸多边形且是以最外层的顶点定义的，所以我们只需要在那些顶点上执行这个操作。一个关于GJK的很棒的事情是，你**无需**真的去计算明可夫斯基差。
 
 ## 单面 (Simplex
@@ -51,5 +55,45 @@ GJK算法很大程度上依赖于一个称为明可夫斯基和的概念。明�
 ## Support 函数
 所以下一个问题是 我们如何构建这个单面(Simplex)？单面是由一个称之为support函数的函数结果所构成。给定两个形状，support函数应该在明可夫斯基差内返回一个点。我们已经知道可以用形状1中的一个点和形状2中的一个点进行相减操作而获得一个于明可夫斯基差内的点，但我们不想每次都是一些相同的点。
 
+若我们让support函数依赖于一个方向，在使用support函数时 我们可以确保我们不会每次获取到相同的点。换而言之，若我们让support函数返回(一个形状)在一个方向上最远的点，那么我们稍后则可以选择不同的方向去获取不同的点。
+
+在一个方向上选择最远的点是有意义的 因为他创建了一个包含最大区域的单面 从而增加了算法快速的退出机会。除此之外，我们还可以利用这样的事实，即以这种方式返回的所有点都在明可夫斯基差的边(edge)上，因此 若我们不能再添加一个沿着某个方向经过原点的点 那么我们将知道这个明可夫斯基差不包含原点。这在无相交的情况下增加了算法快速退出的机会，稍后来详细谈论这一点。
+
+```java
+public Point support(Shape shape1, Shape shape2, Vector d) {
+  // d is a vector direction (doesn't have to be normalized)
+  // get points on the edge of the shapes in opposite directions
+  Point p1 = shape1.getFarthestPointInDirection(d);
+  Point p2 = shape2.getFarthestPointInDirection(d.negative());
+  // perform the Minkowski Difference
+  Point p3 = p1.subtract(p2);
+  // p3 is now a point in Minkowski space on the edge of the Minkowski Difference
+  return p3;
+}
+```
+
+## 创建单面 (Creating The Simplex
+让我们以一个例子开始。对Figure.2中的形状执行3次support函数：
+首先让我们用 `d=(1, 0)` 开始
+```
+p1 = (9, 9);
+p2 = (5, 7);
+p3 = p1-p2 = (4, 2);
+```
+下一个用 `d=(-1, 0)`
+ ```
+ p1 = (4, 5);
+ p2 = (12, 7);
+ p3 = p1-p2=(-8, -2);
+ ```
+ 注意p1可以是`(4, 5)`或`(4, 11)`，两者都可以在明可夫斯基差的边(edge)上产生一个点。
+
+下一个用 `d=(0, 1)`
+```
+p1 = (4, 11);
+p2 = (10, 2);
+p3 = p1-p2 = (-6, 9);
+```
+我们现在得到了显示于Figure.3上的单面(Simplex)
 
 
