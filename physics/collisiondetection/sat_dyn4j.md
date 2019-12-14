@@ -8,7 +8,7 @@ Posted on January 1, 2010  \|  <http://www.dyn4j.org/2010/01/sat/>
 我要说"[这里](http://www.metanetsoftware.com/technique/tutorialA.html)"是一个很棒的教程 其中带有可互交的Flash实例。
 
 1. 介绍
-2. 凸多边形
+2. 凸性 (Convexity
 3. 投影 (Projection
 4. 算法
     1. 无相交 (No Intersection
@@ -24,7 +24,7 @@ Posted on January 1, 2010  \|  <http://www.dyn4j.org/2010/01/sat/>
 ## 介绍
 分离轴算法(Separating  Axis Theorem)，简称SAT，是一个用于确定两个凸多边形是否为相交状态的方法。该算法也可以被用于寻找最小渗透(penetration)向量 这对于物理模拟以及大量其他应用十分有用。SAT是一种快速的通用算法，它可以去除对于每种形状类型对(shape type pair)的特定碰撞检测代码的需要 从而降低了代码及维护量。
 
-## 凸多边形性 (Convexity
+## 凸性 (Convexity
 如前所说，SAT是一个可以确定两个凸多边形是否相交的方法。若形状A为凸多边形，则通过该形状的任意一条线 将只会和该形状相交2次。 若一条通过该形状的线与该形状相交2次以上 那么该形状则为非凸多边形(或凹多边形Concave)。参见"[Wiki](http://en.wikipedia.org/wiki/Convex_and_concave_polygons)" 或 “[MathWorld](http://mathworld.wolfram.com/ConvexPolygon.html)”对此的定义以获得更多信息。所以让我们看看一些例子：
 
 ![figure1-3](attach/sat_figure1-3.png)
