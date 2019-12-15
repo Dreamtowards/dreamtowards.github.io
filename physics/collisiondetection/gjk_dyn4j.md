@@ -242,3 +242,134 @@ proj = (-1, -2).dot(32, -96) = -32 + 192 = 160
 ## 检查单面 (Checking The Simplex
 在这个算法中，我们还有两处操作是尚不明确的，仅仅是使用图片并检查。其中一个是，我们该如何知道当前单面是否包含原点？另一个则是，我们该如何选择下一个d(方向)？在上面的伪代码中，我为了清楚起见 把这两个操作单独分离开来了，但是事实上他们真的应该合在一起，因为这两个操作需要持有许多相同的信息。<sup>一个方法只应该做一件事。但这里或许的确是一个例外，也是可以理解的 相同数据的重复计算将需要额外花费更多的时间与空间，特别是在这种效率敏感的大型计算算法内 尤为明显。但这里可以被封装为内部实现 将对系统不会有什么设计上的影响。</sup>
 
+我们可以通过执行一系列平面(plane)测试(2D情况下则是线条测试) 来确定原点相对于单面 位于哪里，其中每一次测试都由简单的点乘组成。第一种必须处理的情况是线段情况。所以让我们看看在上面例子中的第一次迭代(迭代1)。经过添加了第二个点(-6, 9)后，该单面现在是一个线段。我们可以确定该单面是否包含原点通过检查沃罗诺伊图(Voronoi regions)(见Figure.8)。
+
+![figure8](attach/gjk_figure8.png)
+
+该线段是由点A至点B所构成，点A为最后添加至该单面中的点。我们知道A和B都是在明可夫斯基差的边(edge)上的 因此原点无法位于R1或R4。我们之所以能这样假设 是因{为第11行的检测返回了false 因此表示当我们获得到我们下一个点时 我们过了原点。}<sup>没明白。。</sup>原点只能位于R2或R3，并且因为一个线段无法包含原点<sup>线段无法形成一个区域</sup> 所以所有需要做的则是去选择一个新d(方向)。这一点可以如之前所述以做到，即线段AB朝向原点的垂线：
+
+```java
+// 线段AB朝向点O的垂线可以通过这样的方式被找到：
+AB = B - A;
+AO = O - A;
+perp = (AB x AO) x AB;
+```
+
+> 一个问题是 当O点位于线段(AB)上时会发生什么？若发生这种情况，那么the垂线将会为零向量(zero vector)，并造成于行11的检查失败。<sup>line11在哪。。？我也没搞懂 可能是位于B点的向下11行的A点。。？</sup> 这种会在两种情况下发生：1) 于明可夫斯基和内 以及 2) 于明可夫斯基和的边上(edge)<sup>(第二种情况岂不是也属于在第一种内。。)</sup>。而后者表示一个接触/互触(touching)的联系对 而不是互交/渗透(penetration)，所以你将需要去做一个选择：是否考虑这种情况(touching)为一个碰撞。但无论是否，你都可以使用线段AB的左手或右手的法线作为新的d(方向)。
+
+现在让我们检查the迭代2。迭代2让我们的单面变成了一个三角形(Figure.9)。
+
+![figure9](attach/gjk_figure9.png)
+
+这整个域并没有被通过测试，因为原点没有过这些点中的任意一点 {且因为每个点都已添加 因为他们过了line11的检查}。R2无法包含原点，因为我们最后选择的d在他的反方向<sup>(我们已经知道d(2point's perp to origin)是往原点方向生成的 所以原点不会在d的反方向(夹角大于90度 那就在the perp后面了))</sup>。所以我们需要测试的域只有R3, R4和R5.我们可以执行 (AC x AB) x AB 以产生AB的垂线向量，随后我们执行 ABPerp dot AO 以确定原点是否在R4内。<sup>我觉得更应该叫ABNormal，好像是向外的</sup>
+
+```java
+AB = (-6, 9) - (-8, -2) = (2, 11)
+AC = (4, 2) - (-8, -2) = (12, 4)
+// (AC x AB) x AB = AB(AB.dot(AC)) - AC(AB.dot(AB))
+ABPerp = AB(68) - AC(125)
+       = (136, 748) - (1500, 500)
+       = (-1364, 248)
+       = (-11, 2)
+// compute AO
+AO = (0, 0) - (-8, -2) = (8, 2)
+ABPerp.dot(AO) = -11 * 8 + 2 * 2 = -84
+// its negative so the origin does not lie in R4
+```
+以及和另一个测试，我们将可以确定原点位于何处了：
+```java
+AB = (-6, 9) - (-8, -2) = (2, 11)
+AC = (4, 2) - (-8, -2) = (12, 4)
+// (AB x AC) x AC = AC(AC.dot(AB)) - AB(AC.dot(AC))
+ACPerp = AC(68) - AB(160)
+       = (816, 272) - (320, 1760)
+       = (496, -1488)
+       = (1, -3)
+// compute AO
+AO = (0, 0) - (-8, -2) = (8, 2)
+ACPerp.dot(AO) = 1 * 8 + -3 * 2 = 2
+// its positive so that means the origin lies in R3
+```
+
+我们现在在R3中找到了原点，所以我们现在要来选择一个d(方向)用于我们的下一个明可夫斯基差。这将变得很简单 因为我们已经知道了线段AC是包含原点的沃罗诺伊域(Voronoi region)：
+```
+(AC x AO) x AC
+```
+
+且因为我们只需要点A和点C，所以我们可以去掉点B，因为我们无需再用到他。新的代码将是：
+```java
+Vector d = // choose a search direction
+// get the first Minkowski Difference point
+Simplex.add(support(A, B, d));
+// negate d for the next point
+d.negate();
+// start looping
+while (true) {
+  // add a new point to the simplex because we haven't terminated yet
+  Simplex.add(support(A, B, d));
+  // make sure that the last point we added actually passed the origin
+  if (Simplex.getLast().dot(d) <= 0) {
+    // if the point added last was not past the origin in the direction of d
+    // then the Minkowski Sum cannot possibly contain the origin since
+    // the last point added is on the edge of the Minkowski Difference
+    return false;
+  } else {
+    // otherwise we need to determine if the origin is in
+    // the current simplex
+    if (containsOrigin(Simplex, d) {
+      // if it does then we know there is a collision
+      return true;
+    }
+  }
+}
+ 
+public boolean containsOrigin(Simplex s, Vector d) {
+  // get the last point added to the simplex
+  a = Simplex.getLast();
+  // compute AO (same thing as -A)
+  ao = a.negate();
+  if (Simplex.points.size() == 3) {
+    // then its the triangle case
+    // get b and c
+    b = Simplex.getB();
+    c = Simplex.getC();
+    // compute the edges
+    ab = b - a;
+    ac = c - a;
+    // compute the normals
+    abPerp = tripleProduct(ac, ab, ab);
+    acPerp = tripleProduct(ab, ac, ac);
+    // is the origin in R4
+    if (abPerp.dot(ao) > 0) {
+      // remove point c
+      Simplex.remove(c);
+      // set the new direction to abPerp
+      d.set(abPerp);
+    } else {
+      // is the origin in R3
+      if (acPerp.dot(ao) > 0) {
+        // remove point b
+        Simplex.remove(b);
+        // set the new direction to acPerp
+        d.set(acPerp);
+      } else{
+        // otherwise we know its in R5 so we can return true
+        return true;
+      }
+    }
+  } else {
+    // then its the line segment case
+    b = Simplex.getB();
+    // compute AB
+    ab = b - a;
+    // get the perp to AB in the direction of the origin
+    abPerp = tripleProduct(ab, ao, ab);
+    // set the direction to abPerp
+    d.set(abPerp);
+  }
+  return false;
+}
+```
+
+这样就完成了GJK碰撞检测算法的教程。the原本的GJK算法是用于计算两个凸多边形之间的距离。我计划在其他文章中去讲解该算法的这部分，因为本文已经很长了。
+另外，就像我之前说的，若你需要碰撞检测信息(法线和深度)，你将需要去修改GJK算法或使用其他算法予以补充。EPA是一个我计划在另一个文章中去讲解的补充算法。Until next time…
