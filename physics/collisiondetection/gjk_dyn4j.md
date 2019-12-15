@@ -1,9 +1,9 @@
 # GJK (Gilbert-Johnson-Keerthi) - DYN4J
 Posted on April 13, 2010  \|  <http://www.dyn4j.org/2010/04/gjk-gilbert-johnson-keerthi/>
 
-Attr | Val 
+原文 | [GJK (Gilbert–Johnson–Keerthi)](http://www.dyn4j.org/2010/04/gjk-gilbert-johnson-keerthi/)
 --- | --- 
-原文 | <http://www.dyn4j.org/2010/04/gjk-gilbert-johnson-keerthi/>
+作者 | William
 翻译 | Dreamtowards
 校对 | OutskirtsSys
 
