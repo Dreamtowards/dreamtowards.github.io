@@ -1,6 +1,6 @@
 # gjk_supportfunc_wIth_trans
 
-在实现Gjk时，我有一次突然间无语了。我意识到了一个问题。
+在Gjk中工作时，我有一次突然间无语了。我意识到了一个问题。
 
 在 SupportFunction 中，我们获取两个物体的MinkowskiSum边上的点。但事实上物体通常包含旋转，
 
@@ -45,7 +45,7 @@ def_func vec3 optprvt_$_SuppFunc(sp1, sp2, vec3 d) {
 ```
     M^-1 * M = I
            M * V = V'
-    M^-1 * M * V = V
+    M^-1 *(M * V)= V
 ```
 
 ```c
