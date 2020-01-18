@@ -57,12 +57,23 @@ oct [
 然而事实上并不能真正的使用gtable全局表。虽然看上去统一了，但是其实有一些问题。三界浩瀚无垠，存储区块将数不胜数。而一旦实际运行时的运行时表和gtable对不上，那么就要更改/同步存档的gtable 以存储运行时内容，而gtable一改 将涉及到所有区块的所有插槽内容。。。
 
 ```
-RS. gtable struc
+RS. lc-cktable struc v.pre
 
-[bloid, stateslen, statemeta..., blocid, ...
+[blocid, stateslen, statemeta..., blocid, ...
 
 ```
 
 即使是查找表，实际上也是存储方块状态标识。遇到未知方块抛出异常，预期方块则正常行驶。
 
 所以还是在chunk 16/256/16 界执行local/cktable。。
+
+然而上面的[v.pre]并不是很恰当作为本地查找表。虽然很好的运用了“有序”存储，但是实际上要产出这样的状态有序表 及每个方块类的状态数量 是需要额外开销的，并且这将定义不必要的更高层的数据结构。
+
+
+```
+RS. lc-cktable struc v.pst
+
+[blocsize, blockid..., statesize, blocIndex&&statemeta...
+
+```
+
