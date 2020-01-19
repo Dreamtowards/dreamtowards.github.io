@@ -12,7 +12,7 @@
 这好像有些物尽其用的恰到好处的感觉 12bits完全对齐了16^3的体积。
 不过“查找表”的形式 可能存在着一些问题。。。
 
-众所周知，我们为了极佳的扩展性，将方块的注册表ID以字符串"domain:path/identity"的形式。对于以数字作为持久标识 试想，若操作系统的命令不再是cd ls unlink，而是2137 5189 10172 这样的"数字"，那么人们不但难以记住/查找他们且觉得有一点奇怪 而且若一个软件需要增加一个命令 则这样的数字很容易冲突或批量冲突。类似的例子有些数不胜数，Android的软件包标识，cpp的命名空间，java的包名设定。。
+众所周知，我们为了极佳的扩展性，将方块的注册表ID以字符串"domain:path/identity"的形式。对于以数字作为持久标识 试想，若操作系统的命令不再是cd ls unlink，而是2137 5189 10172 这样的"数字"，那么人们不但难以记住/查找他们且现代来看可能会觉得有一点奇怪 而且若一个软件需要增加一个命令 则这样的数字很容易冲突或批量冲突。类似的例子有些数不胜数，Android的软件包标识，java的包名设定，甚至cpp的命名空间。。。
 
 然而我们只将字符串作为持久化标识，在运行时及很多地方 我们当然还是使用着数字ID(在基于那些字符串标识的前提)。
 
@@ -77,3 +77,35 @@ RS. lc-cktable struc v.pst
 
 ```
 
+## Chunk$stgstruc
+
+```
+// struc /pchunk
+
+// local table
+blockstate_table: byte[] {
+    (short)blocktable.length, (utf)blockId...,
+    (short)statetable.length, (short)blockIndex&&(int)statemeta...
+}
+
+octrees: byte[] {
+    2(byte-identity) (:rt-d0
+        0 (:d1
+        2
+            0 (:d2
+            1 - (short)stateid_local(state)
+            0
+            0
+            0
+            0
+            0
+            0
+        1 - (short)stateid_local(state)
+        0
+        0
+        0
+        0
+        0
+}
+
+```
