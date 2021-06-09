@@ -1,13 +1,14 @@
 
 
 
-# Master Party Members - Internal
+#### ***Master Party Members - Internal***
 
 
 
 ## ![avatar](figures/GL_avatar.png) D.R.E. ref.DREAMTOWARDS | <small>Edward D. Rolinsen</small> | <small>GL</small>
 > Graphics. 
 <!-- Computer Graphics. OpenGL CoreProfiles. -->
+
 [Email]() [QQ](2736310270) [Pinterest]() [&Location](CN_ZhiangSheei_Nanchangi)
 
 
@@ -41,14 +42,20 @@
 3. "Group-Owner" just a golem. not actually people. but still safety. -->
 
 
-# Master - Middle
+#### ***Master - Middle***
+
+## 虚数 | Virtual-num.
+> Real™ Computer Science. Meth.
+
+[QQ](1135604160) [Loc](CN_HeNan_ZhuMaDian|Australia_Melbourne)
 
 ## 游戏开始 | Gam-Begin. | life is beautiful <sub><small>CN-G2 warning.</small></sub>
-> Computer Graphics. Meth.
+> Common Graphics. Meth.
+
+[QQ](744890690)
 
 
-
-# Master - External
+#### ***Master - External***
 
 
 
