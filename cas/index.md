@@ -3,7 +3,45 @@
 # The Normal Page
 
 
-# Contacts
+## Infs
+
+- Games
+  - Euro Truck Simulator II.
+  - Cities: Skyline
+  - Plants vs Zombie.
+  - GTA V. SA.
+  - FarCry V.
+- Software
+  - IDE
+    - IntelliJ IDEA
+    - Clion
+    - Visual Studio Code
+    - ~~Visual Studio 17+~~
+  - Tool
+    - Profixer
+    - Clash
+  - Media
+    - Blender
+    - Photoshop
+    - Premiere Pro
+    - ~~Final Cut Pro~~
+- Platform
+  - Pinterest
+  - Trello
+  - Discord
+  - Reddit
+  - Soundcloud
+- OperationSystem
+  - Microsoft Windows _casual_latest_version.
+  - MACOSX _15_final.
+  - Ubuntu _16_final.
+- Favorite Musix
+  
+  
+    
+  
+
+## Contacts
 
 ***L-zero***
 #### D.R.E. ref.DREAMTOWARDS | Edawrd D. Rolinsen | GL. <sup>[Homepage]()</sup>
@@ -46,11 +84,11 @@ Relation mentor & Generic Developer.
     - The Cherno
     - Makin' Stuff Look Good
   - StepIn
-    - Mahan Pandey | Briac | Inigo Quilez
+    - Mahan Pandey \| Briac \| Inigo Quilez
     - Sebastian Lague
     - Thinmatrix.
   - Advanced Surface
-    - Lin X | ngildea
+    - Lin X \| ngildea
     - M. Cepero
 
 
@@ -59,16 +97,16 @@ Relation mentor & Generic Developer.
   - Greenfield Minecraft
   - *Alpine*
   - Zeropoint55 <sup>[YT](https://www.youtube.com/channel/UC9SmMEm_jEWD03AJuH-0xow) Respectful broad r. clean Architecture.</sup>   
-  - Comp.  
+  - *Comp/*  
     Kao<sup>[Home](https://beacons.page/kaomc) [YT](https://www.youtube.com/channel/UCmvcFn2ktjXO-BRCSc1AnoQ)</sup> | Mar. | Blisschen | cardboardman | きぃこ / kiiko
 
 - Music/  
-  Chillhop Music | Lofi Girl | MrSuicideSheep | Waifu Wednesdays | Aviencloud | Ujico\* /Snail's House | Firefly Music | YUUKI MUSIC | Unmei Ongaku
+  Chillhop Music | MrSuicideSheep | Waifu Wednesdays | Aviencloud | Ujico\* /Snail's House | Firefly Music | YUUKI MUSIC | Unmei Ongaku
 - Relaxation/  
   ElenaLin | Mediastorm | JiangSenZhe | Destiny Whispers<sup>m. asmr</sup>
 
 - Norm Gaming
-  - OMGcraft | Shulkercraft | D. Jofa
+  - OMGcraft \| Shulkercraft \| D. Jofa
   - *Film/*
     - James Harding<sup>The Find Overgrown</sup>
     - Element Animation \| Black Plasma Studios \| Blue Monkey
@@ -76,8 +114,10 @@ Relation mentor & Generic Developer.
     Keralis | JUNS MAB Minecraft | Archelaus | CraftyFoxe | Zaypixel | Silvarret | Folli | TheNeoCubest | Rinty-Craft
   - *Logs/*  
     巢哥 | Onityan | Bes Joe Kampo
-  - *PVP/* Target3DGaming, RKY, Bitzel, fruitberries
-  - *Otr/* RSparrow, Vučko100, Jimmy01, JANTSUU \| Grant Abbitt
+  - *PVP/*  
+    Target3DGaming, RKY, Bitzel, fruitberries
+  - *Otr/*  
+    RSparrow, Vučko100, Jimmy01, JANTSUU \| Grant Abbitt
 
 - News Supplies
 
