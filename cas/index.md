@@ -75,7 +75,11 @@ Relation mentor & Generic Developer.
   
 </details>
 
+<br>
+
 <details><summary> <b>et. ce tera.</b> </summary> 
+
+# Etc
 
 - **Chanots** <sup>[GH](https://github.com/G0ld2N) </sup>  
   &kdns
@@ -109,32 +113,34 @@ Relation mentor & Generic Developer.
 
 ***Subscriptions***
 
-<details><summary> <b>Channels</b> </summary>  
+<details>
+  <summary> <b>Channels</b> </summary>  
 
-- <small>Music</small>  
-  Chillhop Music | MrSuicideSheep | Waifu Wednesdays | Aviencloud | Ujico\* /Snail's House | Firefly Music | YUUKI MUSIC | Unmei Ongaku
-- <small>Relaxation</small>  
-  ElenaLin | Mediastorm | JiangSenZhe | Destiny Whispers<sup>m. asmr</sup>
-
-- <small>Norm Gaming</small>
-  - OMGcraft \| Shulkercraft \| D. Jofa
-  - <small>Film</small>
-    - James Harding<sup>The Find Overgrown</sup>
-    - Element Animation \| Black Plasma Studios \| Blue Monkey
-  - <small>Building</small>  
-    Keralis | JUNS MAB Minecraft | Archelaus | CraftyFoxe | Zaypixel | Silvarret | Folli | TheNeoCubest | Rinty-Craft
-  - <small>Logs</small>  
-    巢哥 | Onityan | Bes Joe Kampo
-  - <small>pvp</small>  
-    Target3DGaming, RKY, Bitzel, fruitberries
-  - <small>Otr</small>  
-    RSparrow, Vučko100, Jimmy01, JANTSUU \| Grant Abbitt
+  - <small>Music</small>  
+    Chillhop Music | MrSuicideSheep | Waifu Wednesdays | Aviencloud | Ujico\* /Snail's House | Firefly Music | YUUKI MUSIC | Unmei Ongaku
+  - <small>Relaxation</small>  
+    ElenaLin | Mediastorm | JiangSenZhe | Destiny Whispers<sup>m. asmr</sup>
+  
+  - <small>Norm Gaming</small>
+    - OMGcraft \| Shulkercraft \| D. Jofa
+    - <small>Film</small>
+      - James Harding<sup>The Find Overgrown</sup>
+      - Element Animation \| Black Plasma Studios \| Blue Monkey
+    - <small>Building</small>  
+      Keralis | JUNS MAB Minecraft | Archelaus | CraftyFoxe | Zaypixel | Silvarret | Folli | TheNeoCubest | Rinty-Craft
+    - <small>Logs</small>  
+      巢哥 | Onityan | Bes Joe Kampo
+    - <small>pvp</small>  
+      Target3DGaming, RKY, Bitzel, fruitberries
+    - <small>Otr</small>  
+      RSparrow, Vučko100, Jimmy01, JANTSUU \| Grant Abbitt
 
 </details>
 
 <br>
 
-<details><summary> <b>Architecture</b> </summary> 
+<details>
+  <summary> <b>Architecture</b> </summary> 
 
   - Greenfield Minecraft
   - *Alpine*
@@ -146,18 +152,19 @@ Relation mentor & Generic Developer.
 
 <br>
 
-<details><summary> <b>Professional Technology</b> </summary> 
+<details>
+  <summary> <b>Professional Technology</b> </summary> 
 
-- <small>Comm</small>
-  - **The Cherno**
-  - Makin' Stuff Look Good
-- <small>StepIn</small>
-  - Mahan Pandey \| Briac \| Inigo Quilez
-  - Sebastian Lague
-  - Thinmatrix.
-- <small>Advanced Surface</small>
-  - Lin X \| ngildea
-  - M. Cepero
+  - <small>Comm</small>
+    - **The Cherno**
+    - Makin' Stuff Look Good
+  - <small>StepIn</small>
+    - Mahan Pandey \| Briac \| Inigo Quilez
+    - Sebastian Lague
+    - Thinmatrix.
+  - <small>Advanced Surface</small>
+    - Lin X \| ngildea
+    - M. Cepero
 
 </details>
 
