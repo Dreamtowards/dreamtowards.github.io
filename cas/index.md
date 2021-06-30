@@ -70,10 +70,12 @@ Relation mentor & Generic Developer.
 - DavinciEvans <sup>[Home](https://davincievans.top/) [GH](https://github.com/DavinciEvans) </sup>
 
 <details markdown="1">
-  <summary> <b>RanDoom Dudes</b> </summary> 
+  <summary> RanDoom Dudes </summary> 
 
   - Kevin CHEN <sup>[GH](https://github.com/KevinZonda) </sup>  
     funnyguy
+    
+  - another.
   
 </details>
 
@@ -132,7 +134,7 @@ Relation mentor & Generic Developer.
       Keralis | JUNS MAB Minecraft | Archelaus | CraftyFoxe | Zaypixel | Silvarret | Folli | TheNeoCubest | Rinty-Craft
     - <small>Logs</small>  
       巢哥 | Onityan | Bes Joe Kampo
-    - <small>pvp</small>  
+    - <small>Pvp</small>  
       Target3DGaming, RKY, Bitzel, fruitberries
     - <small>Otr</small>  
       RSparrow, Vučko100, Jimmy01, JANTSUU \| Grant Abbitt
