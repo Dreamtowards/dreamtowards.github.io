@@ -3,7 +3,7 @@
 
 ## Infs
 
-- Games
+- Gam'es
   - Euro Truck Simulator II.
   - Cities: Skyline
   - Plants vs Zombie.
@@ -15,27 +15,23 @@
     - Clion
     - Visual Studio Code
     - ~~Visual Studio 17+~~
-  - Tool
-    - Profixer
-    - Clash
-  - Media
-    - Blender
-    - Photoshop
-    - Premiere Pro
-    - ~~Final Cut Pro~~
+  - <small>Tool</small>  
+    Profixer \| Clash
+  - <small>Media</small>  
+    Blender \| Photoshop \| Premiere Pro \| ~~Final Cut Pro~~
 - Platform
   - Pinterest
   - Trello
   - Discord
   - Reddit
   - Soundcloud
-- OperationSystem
-  - Microsoft Windows _casual_latest_version.
-  - MACOSX _15_final.
-  - Ubuntu _16_final.
-- Favorite Musix
-  
-  
+- OS
+  - Microsoft Windows <small>_casual_latest_version.</small>
+  - MACOSX <small>'15_final.</small>
+  - Ubuntu <small>'16_final.</small>
+- Fav Musx.
+  - Folklove (Inst.) <small>&nbsp;/&nbsp; Kenichiro Nishihara; ESNO · Natural Relax presented by Folklove</small> <sup>&nbsp;#Jaz h.</sup>
+  - 214 National Highway (Original Mix) <small>&nbsp;/&nbsp; Melchi</small> <sup>&nbsp;#Progressive House</sup>
     
   
 
@@ -103,14 +99,14 @@ Relation mentor & Generic Developer.
 ***Subscriptions***
 
 - Professional Technology
-  - Comm
+  - <small>Comm</small>
     - **The Cherno**
     - Makin' Stuff Look Good
-  - StepIn
+  - <small>StepIn</small>
     - Mahan Pandey \| Briac \| Inigo Quilez
     - Sebastian Lague
     - Thinmatrix.
-  - Advanced Surface
+  - <small>Advanced Surface</small>
     - Lin X \| ngildea
     - M. Cepero
 
@@ -120,30 +116,31 @@ Relation mentor & Generic Developer.
   - Greenfield Minecraft
   - *Alpine*
   - Zeropoint55 <sup>[YT](https://www.youtube.com/channel/UC9SmMEm_jEWD03AJuH-0xow) Respectful broad r. clean Architecture.</sup>   
-  - *Comp/*  
-    Kao<sup>[Home](https://beacons.page/kaomc) [YT](https://www.youtube.com/channel/UCmvcFn2ktjXO-BRCSc1AnoQ)</sup> | Mar. | Blisschen | cardboardman | きぃこ / kiiko
+  - <small>Comp</small>  
+    Kao<sup>[Home](https://beacons.page/kaomc) [YT](https://www.youtube.com/channel/UCmvcFn2ktjXO-BRCSc1AnoQ) </sup> | Mar. | Blisschen | cardboardman | きぃこ / kiiko
 
-- Music/  
-  Chillhop Music | MrSuicideSheep | Waifu Wednesdays | Aviencloud | Ujico\* /Snail's House | Firefly Music | YUUKI MUSIC | Unmei Ongaku
-- Relaxation/  
-  ElenaLin | Mediastorm | JiangSenZhe | Destiny Whispers<sup>m. asmr</sup>
+    
+- Channels
+  - <small>Music</small>  
+    Chillhop Music | MrSuicideSheep | Waifu Wednesdays | Aviencloud | Ujico\* /Snail's House | Firefly Music | YUUKI MUSIC | Unmei Ongaku
+  - <small>Relaxation</small>  
+    ElenaLin | Mediastorm | JiangSenZhe | Destiny Whispers<sup>m. asmr</sup>
+  
+  - <small>Norm Gaming</small>
+    - OMGcraft \| Shulkercraft \| D. Jofa
+    - <small>Film</small>  
+      - James Harding<sup>The Find Overgrown</sup>
+      - Element Animation \| Black Plasma Studios \| Blue Monkey
+    - <small>Building</small>  
+      Keralis | JUNS MAB Minecraft | Archelaus | CraftyFoxe | Zaypixel | Silvarret | Folli | TheNeoCubest | Rinty-Craft
+    - <small>Logs</small>  
+      巢哥 | Onityan | Bes Joe Kampo
+    - <small>pvp</small>  
+      Target3DGaming, RKY, Bitzel, fruitberries
+    - <small>Otr</small>  
+      RSparrow, Vučko100, Jimmy01, JANTSUU \| Grant Abbitt
 
-- Norm Gaming
-  - OMGcraft \| Shulkercraft \| D. Jofa
-  - *Film/*
-    - James Harding<sup>The Find Overgrown</sup>
-    - Element Animation \| Black Plasma Studios \| Blue Monkey
-  - *Building/*  
-    Keralis | JUNS MAB Minecraft | Archelaus | CraftyFoxe | Zaypixel | Silvarret | Folli | TheNeoCubest | Rinty-Craft
-  - *Logs/*  
-    巢哥 | Onityan | Bes Joe Kampo
-  - *PVP/*  
-    Target3DGaming, RKY, Bitzel, fruitberries
-  - *Otr/*  
-    RSparrow, Vučko100, Jimmy01, JANTSUU \| Grant Abbitt
-
-- News Supplies
-
-  - Glavo  <sup>[GH](https://github.com/Glavo) </sup>  
-  JDK News.
+  - <small>News Supplies</small>
+    - **Glavo** <sup>[GH](https://github.com/Glavo) </sup>  
+    JDK News.
 
