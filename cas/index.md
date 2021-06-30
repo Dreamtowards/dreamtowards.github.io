@@ -68,7 +68,7 @@ Relation mentor & Generic Developer.
 
 - DavinciEvans <sup>[Home](https://davincievans.top/) [GH](https://github.com/DavinciEvans) </sup>
 
-<details>
+<details markdown="1">
   <summary> <b>RanDoom Dudes</b> </summary> 
 
   - Kevin CHEN <sup>[GH](https://github.com/KevinZonda) </sup>  
@@ -78,11 +78,9 @@ Relation mentor & Generic Developer.
 
 <br>
 
-<details>
+<details markdown="1">
   <summary> <b>et. ce tera.</b> </summary> 
 
-# Etc
-  
   - **Chanots** <sup>[GH](https://github.com/G0ld2N) </sup>  
     &kdns
   
@@ -113,12 +111,11 @@ Relation mentor & Generic Developer.
   
 - **phenomLi** <sup>[Home](https://github.com/phenomLi/Blog) </sup>  
   adv algori.
-
+  
 
 ***Subscriptions***  
-<br>
 
-<details>
+<details markdown="1">
   <summary> <b>Channels</b> </summary>  
 
   - <small>Music</small>  
@@ -144,7 +141,7 @@ Relation mentor & Generic Developer.
 
 <br>
 
-<details>
+<details markdown="1">
   <summary> <b>Architecture</b> </summary> 
 
   - Greenfield Minecraft
@@ -157,7 +154,7 @@ Relation mentor & Generic Developer.
 
 <br>
 
-<details>
+<details markdown="1">
   <summary> <b>Professional Technology</b> </summary> 
 
   - <small>Comm</small>
