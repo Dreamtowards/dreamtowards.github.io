@@ -3,15 +3,11 @@
 
 ## Infs
 
-<div>
-
 - Gam'es
   - Euro Truck Simulator II.
   - Cities: Skyline 
   - Plants vs Zombie.
   - GTA V. SA. \| FarCry V.
-</div>
-
 - Software
   - <small>Integrated Development Environment. IDE.</small>  
     IntelliJ IDEA \| Clion \| Visual Studio Code \| ~~Visual Studio 17+~~
@@ -69,7 +65,7 @@ Relation mentor & Generic Developer.
 - DavinciEvans <sup>[Home](https://davincievans.top/) [GH](https://github.com/DavinciEvans) </sup>
 
 <details markdown="1">
-  <summary> <b>RanDoom Dudes</b> </summary> 
+  <summary> <b>RanDoom Dudes</b> </summary><br>
 
   - Kevin CHEN <sup>[GH](https://github.com/KevinZonda) </sup>  
     funnyguy
@@ -81,7 +77,7 @@ Relation mentor & Generic Developer.
 <details markdown="1">
   <summary> <b>et. ce tera.</b> </summary> 
 
-  - **Chanots** <sup>[GH](https://github.com/G0ld2N) </sup>  
+  - Chanots <sup>[GH](https://github.com/G0ld2N) </sup>  
     &kdns
   
   - Chanshiyu <sup>[Home](https://chanshiyu.com/) </sup>
@@ -116,7 +112,7 @@ Relation mentor & Generic Developer.
 ***Subscriptions***  
 
 <details markdown="1">
-  <summary> <b>Channels</b> </summary>  
+  <summary> <b>Channels</b> </summary><br>
 
   - <small>Music</small>  
     Chillhop Music | MrSuicideSheep | Waifu Wednesdays | Aviencloud | Ujico\* /Snail's House | Firefly Music | YUUKI MUSIC | Unmei Ongaku
@@ -142,7 +138,7 @@ Relation mentor & Generic Developer.
 <br>
 
 <details markdown="1">
-  <summary> <b>Architecture</b> </summary> 
+  <summary> <b>Architecture</b> </summary><br>
 
   - Greenfield Minecraft
   - *Alpine*
@@ -155,7 +151,7 @@ Relation mentor & Generic Developer.
 <br>
 
 <details markdown="1">
-  <summary> <b>Professional Technology</b> </summary> 
+  <summary> <b>Professional Technology</b> </summary><br>
 
   - <small>Comm</small>
     - **The Cherno**
