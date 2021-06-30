@@ -3,10 +3,15 @@
 
 ## Infs
 
+<div>
+
 - Gam'es
-  - Euro Truck Simulator II. \| Cities: Skyline 
+  - Euro Truck Simulator II.
+  - Cities: Skyline 
   - Plants vs Zombie.
   - GTA V. SA. \| FarCry V.
+</div>
+
 - Software
   - <small>Integrated Development Environment. IDE.</small>  
     IntelliJ IDEA \| Clion \| Visual Studio Code \| ~~Visual Studio 17+~~
@@ -22,8 +27,8 @@
   - Soundcloud
 - OS
   - Microsoft Windows <small>_casual_latest_version.</small>
-  - MACOSX <small>'15_final.</small>
-  - Ubuntu <small>'16_final.</small>
+  - MACOSX <small>_15_final.</small>
+  - Ubuntu <small>_16_final.</small>
 - Fav Musx.
   - Folklove (Inst.) <small>&nbsp;/&nbsp; Kenichiro Nishihara; ESNO · Natural Relax presented by Folklove</small> <sup>&nbsp;#Jaz h.</sup>
   - 214 National Highway (Original Mix) <small>&nbsp;/&nbsp; Melchi</small> <sup>&nbsp;#Progressive House</sup>
