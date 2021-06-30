@@ -3,11 +3,6 @@
 
 ## Infs
 
-- Gam'es
-  - Euro Truck Simulator II.
-  - Cities: Skyline 
-  - Plants vs Zombie.
-  - GTA V. SA. \| FarCry V.
 - Software
   - <small>Integrated Development Environment. IDE.</small>  
     IntelliJ IDEA \| Clion \| Visual Studio Code \| ~~Visual Studio 17+~~
@@ -15,6 +10,13 @@
     Proxifier \| Clash
   - <small>Media</small>  
     Blender \| Photoshop \| Premiere Pro \| ~~Final Cut Pro~~
+  - <small>Minecraft</small>  
+    Mining \| Farming
+- Gam'es
+  - Euro Truck Simulator II.
+  - Cities: Skyline
+  - Plants vs Zombie.
+  - GTA V. SA. \| FarCry V.
 - Platform
   - Pinterest
   - Trello
@@ -25,6 +27,8 @@
   - Microsoft Windows <small>_casual_latest_version.</small>
   - MACOSX <small>_15_final.</small>
   - Ubuntu <small>_16_final.</small>
+  
+
 - Fav Musx.
   - Folklove (Inst.) <small>&nbsp;/&nbsp; Kenichiro Nishihara; ESNO · Natural Relax presented by Folklove</small> <sup>&nbsp;#Jaz h.</sup>
   - 214 National Highway (Original Mix) <small>&nbsp;/&nbsp; Melchi</small> <sup>&nbsp;#Progressive House</sup>
@@ -72,9 +76,8 @@ Relation mentor & Generic Developer.
   
 </details>
 
-<br>
 
-<details markdown="1">
+<details markdown="1" style="margin-top: 8px;">
   <summary> <b>et. ce tera.</b> </summary> 
 
   - Chanots <sup>[GH](https://github.com/G0ld2N) </sup>  
@@ -111,7 +114,7 @@ Relation mentor & Generic Developer.
 
 ***Subscriptions***  
 
-<details markdown="1">
+<details markdown="1" style="margin-top: 24px;">
   <summary> <b>Channels</b> </summary><br>
 
   - <small>Music</small>  
@@ -154,7 +157,7 @@ Relation mentor & Generic Developer.
   <summary> <b>Professional Technology</b> </summary><br>
 
   - <small>Comm</small>
-    - **The Cherno**
+    - The Cherno
     - Makin' Stuff Look Good
   - <small>StepIn</small>
     - Mahan Pandey \| Briac \| Inigo Quilez
