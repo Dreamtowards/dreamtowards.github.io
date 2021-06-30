@@ -23,18 +23,18 @@
   - Discord
   - Reddit
   - Soundcloud
-- OS
+- OS.
   - Microsoft Windows <small>_casual_latest_version.</small>
   - MACOSX <small>_15_final.</small>
   - Ubuntu <small>_16_final.</small>
 
 <br>
 
-- Fav Musx.
-  - Folklove (Inst.) <small>&nbsp;/&nbsp; Kenichiro Nishihara; ESNO · Natural Relax presented by Folklove</small> <sup>&nbsp;#Jaz h.</sup>
+- <small>Fav Musx.</small>
+  - **Folklove (Inst.)** <small>&nbsp;/&nbsp; Kenichiro Nishihara; ESNO · Natural Relax presented by Folklove</small> <sup>&nbsp;#Jaz h.</sup>
   - 214 National Highway (Original Mix) <small>&nbsp;/&nbsp; Melchi</small> <sup>&nbsp;#Progressive House</sup>
     
-  
+<br>
 
 ## Contacts
 
@@ -70,7 +70,7 @@ Relation mentor & Generic Developer.
 - DavinciEvans <sup>[Home](https://davincievans.top/) [GH](https://github.com/DavinciEvans) </sup>
 
 <details markdown="1">
-  <summary> <b>RanDoom Dudes</b> </summary><br>
+  <summary> <b>RanDoom Dudes</b> </summary> 
 
   - Kevin CHEN <sup>[GH](https://github.com/KevinZonda) </sup>  
     funnyguy
@@ -78,7 +78,7 @@ Relation mentor & Generic Developer.
 </details>
 
 
-<details markdown="1" style="margin-top: 8px;">
+<details markdown="1" style="margin-top: 14px;">
   <summary> <b>et. ce tera.</b> </summary> 
 
   - Chanots <sup>[GH](https://github.com/G0ld2N) </sup>  
