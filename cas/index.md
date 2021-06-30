@@ -27,7 +27,8 @@
   - Microsoft Windows <small>_casual_latest_version.</small>
   - MACOSX <small>_15_final.</small>
   - Ubuntu <small>_16_final.</small>
-  
+
+<br>
 
 - Fav Musx.
   - Folklove (Inst.) <small>&nbsp;/&nbsp; Kenichiro Nishihara; ESNO · Natural Relax presented by Folklove</small> <sup>&nbsp;#Jaz h.</sup>
