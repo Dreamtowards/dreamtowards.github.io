@@ -26,6 +26,7 @@
 [QQ](3390038158) [GH](MeiVinEight)
 
 
+
 ## ![avatar](figures/usamoi_avatar.png) Usamoi
 > Language Concept. &Kindness.
 
@@ -33,6 +34,10 @@
 
 
 
+## ![avatar](figures/shiyun_avatar.png) AmemiyaSigure | 秋雨落
+> General Programming. Minec Mod Development. &
+
+[QQ](2080659695)
 
 
 
@@ -47,7 +52,7 @@
 ## 虚数 | Virtual-num.
 > Real™ Computer Science. Meth.
 
-[QQ](1135604160) [Loc](CN_HeNan_ZhuMaDian|Australia_Melbourne)
+[QQ](1135604160) [Loc](CN_HeNan_ZhuMaDian,Australia_Melbourne)
 
 ## 游戏开始 | Gam-Begin. | life is beautiful <sub><small>CN-G2 warning.</small></sub>
 > Common Graphics. Meth.
@@ -71,3 +76,7 @@
     }
 
 </style>
+<script>
+    // Github MD Title Removal
+    document.querySelector("h1").remove();
+</script>
