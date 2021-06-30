@@ -4,19 +4,14 @@
 ## Infs
 
 - Gam'es
-  - Euro Truck Simulator II.
-  - Cities: Skyline
+  - Euro Truck Simulator II. \| Cities: Skyline 
   - Plants vs Zombie.
-  - GTA V. SA.
-  - FarCry V.
+  - GTA V. SA. \| FarCry V.
 - Software
-  - IDE
-    - IntelliJ IDEA
-    - Clion
-    - Visual Studio Code
-    - ~~Visual Studio 17+~~
-  - <small>Tool</small>  
-    Profixer \| Clash
+  - <small>Integrated Development Environment. IDE.</small>  
+    IntelliJ IDEA \| Clion \| Visual Studio Code \| ~~Visual Studio 17+~~
+  - <small>Utilities</small>  
+    Proxifier \| Clash
   - <small>Media</small>  
     Blender \| Photoshop \| Premiere Pro \| ~~Final Cut Pro~~
 - Platform
@@ -68,38 +63,42 @@ Relation mentor & Generic Developer.
 
 - DavinciEvans <sup>[Home](https://davincievans.top/) [GH](https://github.com/DavinciEvans) </sup>
 
-<details><summary> <b>RanDoom Dudes</b> </summary> 
+<details>
+  <summary> <b>RanDoom Dudes</b> </summary> 
 
-- Kevin CHEN <sup>[GH](https://github.com/KevinZonda) </sup>  
-  funnyguy
+  - Kevin CHEN <sup>[GH](https://github.com/KevinZonda) </sup>  
+    funnyguy
   
 </details>
 
 <br>
 
-<details><summary> <b>et. ce tera.</b> </summary> 
+<details>
+  <summary> <b>et. ce tera.</b> </summary> 
 
 # Etc
-
-- **Chanots** <sup>[GH](https://github.com/G0ld2N) </sup>  
-  &kdns
-
-- Chanshiyu <sup>[Home](https://chanshiyu.com/) </sup>
-
-- Trii Hsia <sup>[Home](https://yumoe.com/) </sup>
-
-- *Lang J. Ron*
-
-- Makito's Notebook <sup>[Home](https://keep.moe/) </sup>
-
-- Ayaka Neko <sup>[Home](https://neko.ayaka.moe/) </sup>
-
-- Lowsfish <sup>[Home](https://lowsfish.com/) </sup>
-
-- Chris <sup>[Home](https://chrisoft.org/) </sup>
+  
+  - **Chanots** <sup>[GH](https://github.com/G0ld2N) </sup>  
+    &kdns
+  
+  - Chanshiyu <sup>[Home](https://chanshiyu.com/) </sup>
+  
+  - Trii Hsia <sup>[Home](https://yumoe.com/) </sup>
+  
+  - *Lang J. Ron*
+  
+  - Makito's Notebook <sup>[Home](https://keep.moe/) </sup>
+  
+  - Ayaka Neko <sup>[Home](https://neko.ayaka.moe/) </sup>
+  
+  - Lowsfish <sup>[Home](https://lowsfish.com/) </sup>
+  
+  - Chris <sup>[Home](https://chrisoft.org/) </sup>
 
 
 </details>
+
+<br>
 
 ***L3 respe***
 
@@ -111,7 +110,8 @@ Relation mentor & Generic Developer.
   adv algori.
 
 
-***Subscriptions***
+***Subscriptions***  
+<br>
 
 <details>
   <summary> <b>Channels</b> </summary>  
