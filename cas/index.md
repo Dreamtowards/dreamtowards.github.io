@@ -46,11 +46,11 @@ Relation mentor & Generic Developer.
   - StepIn
     - Mahan Pandey
     - Briac
+    - Inigo Quilez
     - Sebastian Lague
     - Thinmatrix.
   - Advanced Surface
     - Lin X
-    - Inigo Quilez
     - ngildea
     - M. Cepero
 
@@ -63,40 +63,22 @@ Relation mentor & Generic Developer.
   - Comp.  
     Kao<sup>[Home](https://beacons.page/kaomc) [YT](https://www.youtube.com/channel/UCmvcFn2ktjXO-BRCSc1AnoQ)</sup> | Mar. | Blisschen | cardboardman | きぃこ / kiiko
 
-
-- Music
-  - Chillhop Music
-  - Lofi Girl
-  - MrSuicideSheep
-  - Waifu Wednesdays
-  - Aviencloud
-  - Ujico* /Snail's House
-  - Firefly Music
-  - YUUKI MUSIC
-  - Unmei Ongaku
-- Relaxation
-  - ElenaLin
-  - Mediastorm
-  - JiangSenZhe
-  - Destiny Whispers<sup>m. asmr</sup>
+- Music/  
+  Chillhop Music | Lofi Girl | MrSuicideSheep | Waifu Wednesdays | Aviencloud | Ujico* /Snail's House | Firefly Music | YUUKI MUSIC | Unmei Ongaku
+- Relaxation/  
+  ElenaLin | Mediastorm | JiangSenZhe | Destiny Whispers<sup>m. asmr</sup>
 
 - Norm Gaming
-  - OMGcraft
-  - 巢哥
-  - Onityan
-  - Bes Joe Kampo
-  - Shulkercraft
-  - D. Jofa
-  - Film
+  - OMGcraft | Shulkercraft | D. Jofa
+  - Film/
     - James Harding<sup>The Find Overgrown</sup>
-    - Element Animation
-    - Black Plasma Studios
-    - Blue Monkey
-  - Building.  
+    - Element Animation | Black Plasma Studios | Blue Monkey
+  - Building/  
     Keralis | JUNS MAB Minecraft | Archelaus | CraftyFoxe | Zaypixel | Silvarret | Folli | TheNeoCubest | Rinty-Craft
+  - Logs/  
+    巢哥 | Onityan | Bes Joe Kampo
   - PVP/ Target3DGaming, RKY, Bitzel, fruitberries
-  - Otr/ RSparrow, Vučko100, Jimmy01, JANTSUU
-  - Grant Abbitt
+  - Otr/ RSparrow, Vučko100, Jimmy01, JANTSUU | Grant Abbitt
 
 - News Supplies
 
