@@ -31,7 +31,7 @@
 <br>
 
 - <small>Fav Musx.</small>
-  - **Folklove (Inst.)** <small>&nbsp;/&nbsp; Kenichiro Nishihara; ESNO · Natural Relax presented by Folklove</small> <sup>&nbsp;#Jaz h.</sup>
+  - *Folklove (Inst.)* <small>&nbsp;/&nbsp; Kenichiro Nishihara; ESNO · Natural Relax presented by Folklove</small> <sup>&nbsp;#Jaz h.</sup>
   - 214 National Highway (Original Mix) <small>&nbsp;/&nbsp; Melchi</small> <sup>&nbsp;#Progressive House</sup>
     
 <br>
@@ -69,9 +69,8 @@ Relation mentor & Generic Developer.
 
 - DavinciEvans <sup>[Home](https://davincievans.top/) [GH](https://github.com/DavinciEvans) </sup>
 
-<br>
 
-<details markdown="1">
+<details markdown="1" style="margin-top: 28px;">
   <summary> RanDoom Dudes </summary> 
 
   - Kevin CHEN <sup>[GH](https://github.com/KevinZonda) </sup>  
@@ -159,17 +158,15 @@ Relation mentor & Generic Developer.
 <br>
 
 <details markdown="1">
-  <summary> <b>Professional Technology</b> </summary> 
+  <summary> <b>Professional Technology</b> </summary> <br>
 
   - <small>Comm</small>
     - The Cherno
     - Makin' Stuff Look Good
-
   - <small>StepIn</small>
     - Mahan Pandey \| Briac \| Inigo Quilez
     - Sebastian Lague
     - Thinmatrix.
-
   - <small>Advanced Surface</small>
     - Lin X \| ngildea
     - M. Cepero
