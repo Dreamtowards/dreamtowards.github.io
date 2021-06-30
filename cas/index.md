@@ -58,23 +58,31 @@ Language Conception. ACM holder.
 - **AmemiyaSigure | 秋雨落** <sup>[GH](https://github.com/AmemiyaSigure) [Home](https://blog.rain.cx/) </sup>  
 Relation mentor & Generic Developer.
 
-- **Chanots** <sup>[GH](https://github.com/G0ld2N) </sup>  
-&kdns
+- **Donald D. Nevermore** <sup>@donaldnevermore [GH](https://github.com/donaldnevermore) </sup>  
+  suspective
+    
+- **Glavo** <sup>[GH](https://github.com/Glavo) </sup>  
+  jdk news.
 
-- *<small>rand_guys</small>*
-  - Kevin CHEN <sup>[GH](https://github.com/KevinZonda) </sup>  
-    funnyguy
-
-  - Donald D. Nevermore <sup>@donaldnevermore [GH](https://github.com/donaldnevermore) </sup>  
-    suspective
-
-- Compex Studio <sup> [Home](https://complexstudio.net/) </sup>
+- CompexStudio <sup> [Home](https://complexstudio.net/) </sup>
 
 - DavinciEvans <sup>[Home](https://davincievans.top/) [GH](https://github.com/DavinciEvans) </sup>
 
+<details><summary> <b>RanDoom Dudes</b> </summary> 
+
+- Kevin CHEN <sup>[GH](https://github.com/KevinZonda) </sup>  
+  funnyguy
+  
+</details>
+
+<details><summary> <b>et. ce tera.</b> </summary> 
+
+- **Chanots** <sup>[GH](https://github.com/G0ld2N) </sup>  
+  &kdns
+
 - Chanshiyu <sup>[Home](https://chanshiyu.com/) </sup>
 
-- Trii Hsia | Yumoe <sup>[Home](https://yumoe.com/) </sup>
+- Trii Hsia <sup>[Home](https://yumoe.com/) </sup>
 
 - *Lang J. Ron*
 
@@ -85,6 +93,9 @@ Relation mentor & Generic Developer.
 - Lowsfish <sup>[Home](https://lowsfish.com/) </sup>
 
 - Chris <sup>[Home](https://chrisoft.org/) </sup>
+
+
+</details>
 
 ***L3 respe***
 
@@ -98,49 +109,56 @@ Relation mentor & Generic Developer.
 
 ***Subscriptions***
 
-- Professional Technology
-  - <small>Comm</small>
-    - **The Cherno**
-    - Makin' Stuff Look Good
-  - <small>StepIn</small>
-    - Mahan Pandey \| Briac \| Inigo Quilez
-    - Sebastian Lague
-    - Thinmatrix.
-  - <small>Advanced Surface</small>
-    - Lin X \| ngildea
-    - M. Cepero
+<details><summary> <b>Channels</b> </summary>  
 
+- <small>Music</small>  
+  Chillhop Music | MrSuicideSheep | Waifu Wednesdays | Aviencloud | Ujico\* /Snail's House | Firefly Music | YUUKI MUSIC | Unmei Ongaku
+- <small>Relaxation</small>  
+  ElenaLin | Mediastorm | JiangSenZhe | Destiny Whispers<sup>m. asmr</sup>
 
+- <small>Norm Gaming</small>
+  - OMGcraft \| Shulkercraft \| D. Jofa
+  - <small>Film</small>
+    - James Harding<sup>The Find Overgrown</sup>
+    - Element Animation \| Black Plasma Studios \| Blue Monkey
+  - <small>Building</small>  
+    Keralis | JUNS MAB Minecraft | Archelaus | CraftyFoxe | Zaypixel | Silvarret | Folli | TheNeoCubest | Rinty-Craft
+  - <small>Logs</small>  
+    巢哥 | Onityan | Bes Joe Kampo
+  - <small>pvp</small>  
+    Target3DGaming, RKY, Bitzel, fruitberries
+  - <small>Otr</small>  
+    RSparrow, Vučko100, Jimmy01, JANTSUU \| Grant Abbitt
 
-- Architecture
+</details>
+
+<br>
+
+<details><summary> <b>Architecture</b> </summary> 
+
   - Greenfield Minecraft
   - *Alpine*
   - Zeropoint55 <sup>[YT](https://www.youtube.com/channel/UC9SmMEm_jEWD03AJuH-0xow) Respectful broad r. clean Architecture.</sup>   
   - <small>Comp</small>  
     Kao<sup>[Home](https://beacons.page/kaomc) [YT](https://www.youtube.com/channel/UCmvcFn2ktjXO-BRCSc1AnoQ) </sup> | Mar. | Blisschen | cardboardman | きぃこ / kiiko
 
-    
-- Channels
-  - <small>Music</small>  
-    Chillhop Music | MrSuicideSheep | Waifu Wednesdays | Aviencloud | Ujico\* /Snail's House | Firefly Music | YUUKI MUSIC | Unmei Ongaku
-  - <small>Relaxation</small>  
-    ElenaLin | Mediastorm | JiangSenZhe | Destiny Whispers<sup>m. asmr</sup>
-  
-  - <small>Norm Gaming</small>
-    - OMGcraft \| Shulkercraft \| D. Jofa
-    - <small>Film</small>  
-      - James Harding<sup>The Find Overgrown</sup>
-      - Element Animation \| Black Plasma Studios \| Blue Monkey
-    - <small>Building</small>  
-      Keralis | JUNS MAB Minecraft | Archelaus | CraftyFoxe | Zaypixel | Silvarret | Folli | TheNeoCubest | Rinty-Craft
-    - <small>Logs</small>  
-      巢哥 | Onityan | Bes Joe Kampo
-    - <small>pvp</small>  
-      Target3DGaming, RKY, Bitzel, fruitberries
-    - <small>Otr</small>  
-      RSparrow, Vučko100, Jimmy01, JANTSUU \| Grant Abbitt
+</details>
 
-  - <small>News Supplies</small>
-    - **Glavo** <sup>[GH](https://github.com/Glavo) </sup>  
-    JDK News.
+<br>
 
+<details><summary> <b>Professional Technology</b> </summary> 
+
+- <small>Comm</small>
+  - **The Cherno**
+  - Makin' Stuff Look Good
+- <small>StepIn</small>
+  - Mahan Pandey \| Briac \| Inigo Quilez
+  - Sebastian Lague
+  - Thinmatrix.
+- <small>Advanced Surface</small>
+  - Lin X \| ngildea
+  - M. Cepero
+
+</details>
+
+<br>
