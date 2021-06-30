@@ -69,6 +69,8 @@ Relation mentor & Generic Developer.
 
 - DavinciEvans <sup>[Home](https://davincievans.top/) [GH](https://github.com/DavinciEvans) </sup>
 
+<br>
+
 <details markdown="1">
   <summary> RanDoom Dudes </summary> 
 
@@ -80,7 +82,7 @@ Relation mentor & Generic Developer.
 </details>
 
 
-<details markdown="1" style="margin-top: 14px;">
+<details markdown="1" style="margin-top: 22px;">
   <summary> <b>et. ce tera.</b> </summary> 
 
   - Chanots <sup>[GH](https://github.com/G0ld2N) </sup>  
@@ -157,15 +159,17 @@ Relation mentor & Generic Developer.
 <br>
 
 <details markdown="1">
-  <summary> <b>Professional Technology</b> </summary><br>
+  <summary> <b>Professional Technology</b> </summary> 
 
   - <small>Comm</small>
     - The Cherno
     - Makin' Stuff Look Good
+
   - <small>StepIn</small>
     - Mahan Pandey \| Briac \| Inigo Quilez
     - Sebastian Lague
     - Thinmatrix.
+
   - <small>Advanced Surface</small>
     - Lin X \| ngildea
     - M. Cepero
