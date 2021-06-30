@@ -1,7 +1,5 @@
 
 
-# The Normal Page
-
 
 ## Infs
 
@@ -48,7 +46,6 @@
 
 ---
 
-
 ***L1***
 
 - **czm** <sup>[Home](http://czm.sfclub.cc/archives/) [GH](http://czm.sfclub.cc/archives/) </sup>  
@@ -66,22 +63,48 @@ Language Conception. ACM holder.
 Relation mentor & Generic Developer.
 
 - **Chanots** <sup>[GH](https://github.com/G0ld2N) </sup>  
-&kdns  
+&kdns
 
-- *random_guys*
+- *<small>rand_guys</small>*
   - Kevin CHEN <sup>[GH](https://github.com/KevinZonda) </sup>  
     funnyguy
 
   - Donald D. Nevermore <sup>@donaldnevermore [GH](https://github.com/donaldnevermore) </sup>  
-  sus
+    suspective
 
----
+- Compex Studio <sup> [Home](https://complexstudio.net/) </sup>
+
+- DavinciEvans <sup>[Home](https://davincievans.top/) [GH](https://github.com/DavinciEvans) </sup>
+
+- Chanshiyu <sup>[Home](https://chanshiyu.com/) </sup>
+
+- Trii Hsia | Yumoe <sup>[Home](https://yumoe.com/) </sup>
+
+- *Lang J. Ron*
+
+- Makito's Notebook <sup>[Home](https://keep.moe/) </sup>
+
+- Ayaka Neko <sup>[Home](https://neko.ayaka.moe/) </sup>
+
+- Lowsfish <sup>[Home](https://lowsfish.com/) </sup>
+
+- Chris <sup>[Home](https://chrisoft.org/) </sup>
+
+***L3 respe***
+
+
+- **szszss** <sup>[Home](http://blog.hakugyokurou.net/) </sup>  
+  graphics
+  
+- **phenomLi** <sup>[Home](https://github.com/phenomLi/Blog) </sup>  
+  adv algori.
+
 
 ***Subscriptions***
 
 - Professional Technology
   - Comm
-    - The Cherno
+    - **The Cherno**
     - Makin' Stuff Look Good
   - StepIn
     - Mahan Pandey \| Briac \| Inigo Quilez
