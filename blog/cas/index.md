@@ -125,7 +125,7 @@ Relation mentor & Generic Developer.
 
 
 <details markdown="1" style="margin-top: 24px;">
-  <summary markdown="1"> <b>Channels, Architecture & Professionals</b> </summary><br>
+  <summary> <b>Channels, Architecture & Professionals</b> </summary><br>
   
 
 [comment]: <> (<details markdown="1" style="margin-top: 24px;">)
