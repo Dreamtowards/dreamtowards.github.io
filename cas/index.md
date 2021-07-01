@@ -9,7 +9,7 @@
 <details markdown="1" style="margin-top: 24px;">
   <summary markdown="1"> 
 
-## Infs
+## INFs
 </summary> <br>
 
 [comment]: <> (- Perspubinfs)
@@ -117,7 +117,10 @@ Relation mentor & Generic Developer.
 
 
 <details markdown="1" style="margin-top: 24px;">
-  <summary> <b> Channels, Architecture & Professionals </b> </summary><br>
+  <summary markdown="1"> 
+
+### Channels, Architecture & Professionals
+</summary><br>
   
 
 [comment]: <> (<details markdown="1" style="margin-top: 24px;">)
