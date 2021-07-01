@@ -6,7 +6,10 @@
 
 ## Infs
 
-- Sofware
+<details markdown="1" style="margin-top: 24px;">
+  <summary> Perspubinfs </summary>
+
+[comment]: <> (- Perspubinfs)
   - <small>Integrated Development Environment. IDE.</small>  
     IntelliJ IDEA \| Clion \| Visual Studio Code \| ~~Visual Studio 17+~~
   - <small>Utilities</small>  
@@ -15,8 +18,10 @@
     Blender \| Photoshop \| Premiere Pro \| ~~Final Cut Pro~~
   - <small>Minecraft</small>  
     Mining \| Farming
+  - <small>Series</small>  
+    Prison Breaking / Narcos / LdP. / Breaking Bad
   - <small>Gam'es</small>  
-    Euro Truck Simulator II. \| Cities: Skyline \| Plants vs Zombie. \| GTA V. SA. \| FarCry V.
+    Euro Truck Simulator II. \| Cities: Skyline \| Plants vs Zombie. \| GTA V. SA. \| Farcry 
   - <small>Platform</small>  
     Pinterest \| Trello \| Discord \| Reddit \| Soundcloud
   - <small>OS.</small>  
@@ -28,6 +33,7 @@
   - *Folklove (Inst.)* <small>&nbsp;/&nbsp; Kenichiro Nishihara; ESNO · Natural Relax presented by Folklove</small> <sup>&nbsp;#Jaz h.</sup>
   - *214 National Highway (Original Mix)* <small>&nbsp;/&nbsp; Melchi</small> <sup>&nbsp;#Progressive House</sup>
     
+</details>
 <br>
 
 ## Contacts
