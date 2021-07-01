@@ -4,10 +4,13 @@
 
 
 
-## Infs
+
 
 <details markdown="1" style="margin-top: 24px;">
-  <summary> Perspubinfs </summary>
+  <summary> 
+
+## Infs
+</summary> <br>
 
 [comment]: <> (- Perspubinfs)
   - <small>Integrated Development Environment. IDE.</small>  
@@ -114,7 +117,7 @@ Relation mentor & Generic Developer.
 
 
 <details markdown="1" style="margin-top: 24px;">
-  <summary> <small> . </small> </summary>
+  <summary> <b> Channels, Architecture & Professionals </b> </summary>
   
 
 [comment]: <> (<details markdown="1" style="margin-top: 24px;">)
