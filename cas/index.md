@@ -7,7 +7,7 @@
 
 
 <details markdown="1" style="margin-top: 24px;">
-  <summary> 
+  <summary markdown="1"> 
 
 ## Infs
 </summary> <br>
@@ -117,7 +117,7 @@ Relation mentor & Generic Developer.
 
 
 <details markdown="1" style="margin-top: 24px;">
-  <summary> <b> Channels, Architecture & Professionals </b> </summary>
+  <summary> <b> Channels, Architecture & Professionals </b> </summary><br>
   
 
 [comment]: <> (<details markdown="1" style="margin-top: 24px;">)
