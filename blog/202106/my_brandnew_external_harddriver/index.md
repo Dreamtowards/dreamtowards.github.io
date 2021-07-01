@@ -16,4 +16,6 @@ Tags: Ordinary.
 > 并且 增加多个备份硬盘 对应每个主硬盘。
 
 
-自从上次我得到`WD Elements 1D HDD HardDriver`后, 我就没有再持有其他移动硬盘.
+自从上次我得到`WD Elements 1T HDD HardDriver`后, 我就没有再持有其他移动硬盘.
+
+然而这并不意味着什么。

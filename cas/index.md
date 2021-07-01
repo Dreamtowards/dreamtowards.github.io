@@ -2,10 +2,11 @@
 update2
 ## _posts.
 
+- `20210630` [Ordinary] [My BrandNew External HardDriver.](/blog/202106/my_brandnew_external_harddriver)
+- `20210631` [Bullshit] [Setup GoogleAnalytics on GithubPages](/blog/202106/setup_googleanalytics_on_githubpages)
 
 
-
-
+<br><br>
 
 <details markdown="1" style="margin-top: 24px;">
   <summary markdown="1"> 
