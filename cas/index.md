@@ -1,5 +1,8 @@
 
 
+## Posts.
+
+
 
 ## Infs
 
@@ -32,16 +35,15 @@
 
 - <small>Fav Musx.</small>
   - *Folklove (Inst.)* <small>&nbsp;/&nbsp; Kenichiro Nishihara; ESNO · Natural Relax presented by Folklove</small> <sup>&nbsp;#Jaz h.</sup>
-  - 214 National Highway (Original Mix) <small>&nbsp;/&nbsp; Melchi</small> <sup>&nbsp;#Progressive House</sup>
+  - *214 National Highway (Original Mix)* <small>&nbsp;/&nbsp; Melchi</small> <sup>&nbsp;#Progressive House</sup>
     
 <br>
 
-## Contacts
+## Contacx
 
 ***L-zero***
 #### D.R.E. ref.DREAMTOWARDS | Edawrd D. Rolinsen | GL. <sup>[Homepage]()</sup>
 
----
 
 ***L1***
 
@@ -70,22 +72,15 @@ Relation mentor & Generic Developer.
 - DavinciEvans <sup>[Home](https://davincievans.top/) [GH](https://github.com/DavinciEvans) </sup>
 
 
-<details markdown="1" style="margin-top: 28px;">
-  <summary> RanDoom Dudes </summary> 
 
-  - Kevin CHEN <sup>[GH](https://github.com/KevinZonda) </sup>  
-    funnyguy
-    
-  - another.
-  
-</details>
-
-
-<details markdown="1" style="margin-top: 22px;">
-  <summary> <b>et. ce tera.</b> </summary> 
+<details markdown="1" style="margin-top: 24px;">
+  <summary> et. ce tera. </summary> 
 
   - Chanots <sup>[GH](https://github.com/G0ld2N) </sup>  
     &kdns
+
+  - Kevin CHEN <sup>[GH](https://github.com/KevinZonda) </sup>  
+    funnyguy
   
   - Chanshiyu <sup>[Home](https://chanshiyu.com/) </sup>
   
@@ -97,9 +92,14 @@ Relation mentor & Generic Developer.
   
   - Ayaka Neko <sup>[Home](https://neko.ayaka.moe/) </sup>
   
-  - Lowsfish <sup>[Home](https://lowsfish.com/) </sup>
+  - Lowsfish <sup>[Home](https://lowsfish.com/) </sup>  
+    clture
   
-  - Chris <sup>[Home](https://chrisoft.org/) </sup>
+  - Chris <sup>[Home](https://chrisoft.org/) </sup>  
+    clture
+
+  - TheBadZhang <sup>[Home](https://thebadzhang.top/) </sup>  
+    basic graphics, convex.
 
 
 </details>
@@ -167,6 +167,8 @@ Relation mentor & Generic Developer.
     - Mahan Pandey \| Briac \| Inigo Quilez
     - Sebastian Lague
     - Thinmatrix.
+  - Ext
+    - Erin Catto
   - <small>Advanced Surface</small>
     - Lin X \| ngildea
     - M. Cepero
