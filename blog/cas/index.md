@@ -1,9 +1,16 @@
 
-update2
+
 ## _posts.
 
+<small>*202106*</small>
 - `20210630` `[Ordinary]` [My BrandNew External HardDriver.](/blog/202106/my_brandnew_external_harddriver)
 - `20210631` `[Bullshit]` [Setup GoogleAnalytics on GithubPages](/blog/202106/setup_googleanalytics_on_githubpages)
+
+
+<small>*202107*</small>
+
+
+
 
 [comment]: <> (## Infs)
 
@@ -98,6 +105,8 @@ Relation mentor & Generic Developer.
 
   - **Glavo** <sup>[GH](https://github.com/Glavo) </sup>  
     jdk news.
+    
+  - Tachibana Kanade
 
 </details>
 
@@ -116,10 +125,7 @@ Relation mentor & Generic Developer.
 
 
 <details markdown="1" style="margin-top: 24px;">
-  <summary markdown="1"> 
-
-### Channels, Architecture & Professionals
-</summary><br>
+  <summary markdown="1"> <b>Channels, Architecture & Professionals</b> </summary><br>
   
 
 [comment]: <> (<details markdown="1" style="margin-top: 24px;">)

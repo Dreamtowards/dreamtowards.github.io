@@ -8,7 +8,7 @@
 > Graphics. 
 <!-- Computer Graphics. OpenGL CoreProfiles. -->
 
-[Email]() [QQ](2736310270) [Pinterest]() [&Location](CN_ZhiangSheei_Nanchangi)
+[Email] [QQ](2736310270) [Pinterest]() [&Location](CN_ZhiangSheei_Nanchangi)
 
 
 
@@ -48,10 +48,6 @@
 
 #### ***Master - Middle***
 
-## 虚数 | Virtual-num.
-> Real™ Computer Science. Meth.
-
-[QQ](1135604160) [Loc](CN_HeNan_ZhuMaDian,Australia_Melbourne)
 
 ## 游戏开始 | Gam-Begin. | life is beautiful <sub><small>CN-G2 warning.</small></sub>
 > Common Graphics. Meth.
@@ -60,8 +56,6 @@
 
 
 #### ***Master - External***
-
-
 
 
 
@@ -75,7 +69,8 @@
     }
 
 </style>
-<script>
-    // Github MD Title Removal
-    document.querySelector("h1").remove();
-</script>
+
+[comment]: <> (<script>)
+[comment]: <> (    // Github MD Title Removal)
+[comment]: <> (    document.querySelector&#40;"h1"&#41;.remove&#40;&#41;;)
+[comment]: <> (</script>)
