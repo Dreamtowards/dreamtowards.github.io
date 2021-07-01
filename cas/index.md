@@ -2,17 +2,20 @@
 update2
 ## _posts.
 
-- `20210630` [Ordinary] [My BrandNew External HardDriver.](/blog/202106/my_brandnew_external_harddriver)
-- `20210631` [Bullshit] [Setup GoogleAnalytics on GithubPages](/blog/202106/setup_googleanalytics_on_githubpages)
+- `20210630` `[Ordinary]` [My BrandNew External HardDriver.](/blog/202106/my_brandnew_external_harddriver)
+- `20210631` `[Bullshit]` [Setup GoogleAnalytics on GithubPages](/blog/202106/setup_googleanalytics_on_githubpages)
 
+[comment]: <> (## Infs)
 
 <br><br>
 
-<details markdown="1" style="margin-top: 24px;">
-  <summary markdown="1"> 
+## Contacts
 
-## Infs
-</summary> <br>
+***L-zero***
+#### D.R.E. ref.DREAMTOWARDS | Edawrd D. Rolinsen | GL. <sup>[Homepage]()</sup>
+
+<details markdown="1" style="margin-top: 24px;">
+  <summary> Software & Preferences</summary> <br>
 
 [comment]: <> (- Perspubinfs)
   - <small>Integrated Development Environment. IDE.</small>  
@@ -40,12 +43,6 @@ update2
     
 </details>
 <br>
-
-## Contacts
-
-***L-zero***
-#### D.R.E. ref.DREAMTOWARDS | Edawrd D. Rolinsen | GL. <sup>[Homepage]()</sup>
-
 
 ***L1***
 
