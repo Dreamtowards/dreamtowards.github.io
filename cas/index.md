@@ -4,12 +4,22 @@
 
 
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6ZRLVV7JSR"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-6ZRLVV7JSR');
+</script>
+
 
 
 <details markdown="1" style="margin-top: 24px;">
   <summary markdown="1"> 
 
-## INFs
+## Infs
 </summary> <br>
 
 [comment]: <> (- Perspubinfs)
@@ -146,6 +156,8 @@ Relation mentor & Generic Developer.
 
 [comment]: <> (</details><br>)
 
+<br>
+
 [comment]: <> (<details markdown="1">)
 [comment]: <> (  <summary> <b>Architecture</b> </summary><br>)
 
@@ -158,6 +170,7 @@ Relation mentor & Generic Developer.
 
 [comment]: <> (</details><br>)
 
+<br>
 
 [comment]: <> (<details markdown="1">)
 [comment]: <> (  <summary> <b>Ultimate Terminators</b> </summary> <br>)

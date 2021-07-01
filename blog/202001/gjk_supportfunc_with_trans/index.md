@@ -1,4 +1,5 @@
 # gjk_supportfunc_wIth_trans
+Posted on Jan 14, 2020
 
 在Gjk中工作时，我有一次突然间无语了。我意识到了一个问题。
 
