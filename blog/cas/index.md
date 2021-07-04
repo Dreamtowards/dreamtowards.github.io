@@ -3,7 +3,6 @@
 ## Involved Projects
 
 - GTA-SA re.ver.  
-  <small>Use of Cpp and OpenGL CP.</small>
 
 - Grlang (alias, non-openness)
 
@@ -21,11 +20,6 @@
 - `20210702` `[refactoring]` Most error from early optimstic.
 - `20210703` `[language-design]` Whay value-objects.?
 - `20210704` `[language]` Simple Intro if Grlang.
-
-<div style="float: right;display: inline-block;">
-    <script  type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=t&d=c24h2ZCm-nJriSLvI3SZwuQtcx5PE1Yqk3v-ysPveQc&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
-
-</div>
 
 [comment]: <> (## Infs)
 
@@ -199,3 +193,10 @@ Relation mentor & Generic Developer.
 
 </details>
 <br>
+
+
+
+
+<div style="float: right;display: inline-block;">
+    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=200&t=t&d=c24h2ZCm-nJriSLvI3SZwuQtcx5PE1Yqk3v-ysPveQc'></script>
+</div>
