@@ -3,3 +3,7 @@ title: DLIB
 description: desc
 
 show_downloads: true
+
+github:
+  private: false
+  license: MIT

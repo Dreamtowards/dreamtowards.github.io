@@ -196,36 +196,3 @@ Relation mentor & Generic Developer.
 </details>
 <br>
 
-
----
-<div markdown="1" style="float: left;vertical-align: top;">
-
-`(C) 2017-2020 Edward D. Rolinsen`
-
-</div>
-
-<div class="footer-www-tags">
-    <a style="margin: 0 0 0 3px;"><img src="/webstatic/html5_gray32.png"></a>
-    <a style="margin-top: 1px;" href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/I_heart_validator.png"></a>
-    <hr style="width: 1px;height: 14px;display: inline-block;margin: 1px 5px 0 4px;background-color: #444;">
-    <a href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/valid_css.gif"></a>
-    <a href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/valid_xhtml_v1.gif"></a>
-
-    <style>
-      .footer-www-tags * {
-        float: right;
-        vertical-align: top;
-      }
-    </style>
-</div>
-
-<br><br>
-<div style="margin: -4px 4px 0 8px;float: right;">
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=160&t=t&d=c24h2ZCm-nJriSLvI3SZwuQtcx5PE1Yqk3v-ysPveQc'></script>
-
-    <style>
-        .clustrmaps-map-container {
-            outline: 4px #888 inset;
-        }
-    </style>
-</div>
