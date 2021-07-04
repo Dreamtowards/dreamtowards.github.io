@@ -204,14 +204,15 @@ Relation mentor & Generic Developer.
 
 </div>
 
-<a style="float: right;"><img src="/webstatic/html5_gray32.png"></a>
-<a style="float: right;" href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/I_heart_validator.png"></a>
-<a style="float: right;"> | </a>
-<a style="float: right;" href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/valid_css.gif"></a>
-<a style="float: right;" href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/valid_xhtml_v1.gif"></a>
+<div style="float: right;">
+    <a><img src="/webstatic/html5_gray32.png"></a>
+    <a href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/I_heart_validator.png"></a>
+    <a> | </a>
+    <a href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/valid_css.gif"></a>
+    <a href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/valid_xhtml_v1.gif"></a>
+</div>
 
-
-<div style="margin: 0 auto;">
+<div style="/*margin: 0 auto;*/margin: 4px 0 0 8px;float: right;">
     <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=160&t=t&d=c24h2ZCm-nJriSLvI3SZwuQtcx5PE1Yqk3v-ysPveQc'></script>
 
     <style>
