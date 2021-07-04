@@ -220,7 +220,7 @@ Relation mentor & Generic Developer.
 </div>
 
 <br><br>
-<div style="/*margin: 0 auto;*/margin: 4px 0 0 8px;float: right;">
+<div style="margin: -12px 4px 0 8px;float: right;">
     <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=160&t=t&d=c24h2ZCm-nJriSLvI3SZwuQtcx5PE1Yqk3v-ysPveQc'></script>
 
     <style>
