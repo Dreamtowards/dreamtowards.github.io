@@ -1,16 +1,27 @@
 
 
+## Involved Projects
+
+- GTA-SA re.ver.
+
+- Grlang (alias, non-openness)
+
+[comment]: <> (- microcraft)
+
 ## _posts.
 
 <small>*202106*</small>
-- `20210630` `[Ordinary]` [My BrandNew External HardDriver.](/blog/202106/my_brandnew_external_harddriver)
-- `20210631` `[Bullshit]` [Setup GoogleAnalytics on GithubPages](/blog/202106/setup_googleanalytics_on_githubpages)
+- `20210630` `[ordinary]` [My BrandNew External HardDriver.](/blog/202106/my_brandnew_external_harddriver)
+- `20210631` `[emBullshits]` [Setup GoogleAnalytics on GithubPages](/blog/202106/setup_googleanalytics_on_githubpages)
 
 
 <small>*202107*</small>
+- `20210701` `[syntaxanalyze]` biexpr parse spec-ed method
+- `20210702` `[refactoring]` Most error from early optimstic.
+- `20210703` `[language-design]` Whay value-objects.?
+- `20210704` `[language]` Simple Intro if Grlang.
 
-
-
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=t&d=c24h2ZCm-nJriSLvI3SZwuQtcx5PE1Yqk3v-ysPveQc&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
 
 [comment]: <> (## Infs)
 
@@ -128,8 +139,7 @@ Relation mentor & Generic Developer.
   <summary> <b>Channels, Architecture & Professionals</b> </summary><br>
   
 
-[comment]: <> (<details markdown="1" style="margin-top: 24px;">)
-[comment]: <> (  <summary> <b>Channels</b> </summary><br>)
+[comment]: <> (<details markdown="1" style="margin-top: 24px;"> <summary> <b>Channels</b> </summary><br>)
 - Channels
   - <small>Music</small>  
     Chillhop Music | MrSuicideSheep | Waifu Wednesdays | Aviencloud | Ujico\* /Snail's House | Firefly Music | YUUKI MUSIC | Unmei Ongaku
@@ -153,8 +163,7 @@ Relation mentor & Generic Developer.
 
 <br>
 
-[comment]: <> (<details markdown="1">)
-[comment]: <> (  <summary> <b>Architecture</b> </summary><br>)
+[comment]: <> (<details markdown="1"> <summary> <b>Architecture</b> </summary><br>)
 
 - Architecture
   - Greenfield Minecraft
@@ -167,8 +176,7 @@ Relation mentor & Generic Developer.
 
 <br>
 
-[comment]: <> (<details markdown="1">)
-[comment]: <> (  <summary> <b>Ultimate Terminators</b> </summary> <br>)
+[comment]: <> (<details markdown="1"> <summary> <b>Ultimate Terminators</b> </summary> <br>)
 - Professional Technology
   - <small>Comm</small>
     - The Cherno
