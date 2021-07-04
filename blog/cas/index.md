@@ -204,12 +204,12 @@ Relation mentor & Generic Developer.
 
 </div>
 
-<div style="float: right;">
-    <a><img src="/webstatic/html5_gray32.png"></a>
-    <a href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/I_heart_validator.png"></a>
-    <a> | </a>
-    <a href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/valid_css.gif"></a>
-    <a href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/valid_xhtml_v1.gif"></a>
+<div>
+    <a style="float: right;"><img src="/webstatic/html5_gray32.png"></a>
+    <a style="float: right;" href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/I_heart_validator.png"></a>
+    <a style="float: right;"> | </a>
+    <a style="float: right;" href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/valid_css.gif"></a>
+    <a style="float: right;" href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/valid_xhtml_v1.gif"></a>
 </div>
 
 <div style="/*margin: 0 auto;*/margin: 4px 0 0 8px;float: right;">
