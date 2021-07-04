@@ -214,8 +214,9 @@ Relation mentor & Generic Developer.
     </style>
 </div>
 
-<div class="footer-www-tags" style="margin-top: 94px;">
-    <a style="margin: -3px 0 0 3px;"><img src="/webstatic/html5_gray32.png"></a>
+<br><br>
+<div class="footer-www-tags">
+    <a style="margin: 0 0 0 3px;"><img src="/webstatic/html5_gray32.png"></a>
     <a style="margin-top: 1px;" href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/I_heart_validator.png"></a>
     <hr style="width: 1px;height: 14px;display: inline-block;margin: 1px 5px 0 4px;background-color: #444;">
     <a href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/valid_css.gif"></a>
