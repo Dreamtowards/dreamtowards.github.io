@@ -211,6 +211,12 @@ Relation mentor & Generic Developer.
 <a style="float: right;" href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/valid_xhtml_v1.gif"></a>
 
 
-<div style="margin: 0 auto;outline: 4px #999 dashed;width: 200px;">
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=200&t=t&d=c24h2ZCm-nJriSLvI3SZwuQtcx5PE1Yqk3v-ysPveQc'></script>
+<div style="margin: 0 auto;">
+    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=160&t=t&d=c24h2ZCm-nJriSLvI3SZwuQtcx5PE1Yqk3v-ysPveQc'></script>
+
+    <style>
+        .clustrmaps-map-container {
+            outline: 4px #666 inset;
+        }
+    </style>
 </div>
