@@ -204,12 +204,21 @@ Relation mentor & Generic Developer.
 
 </div>
 
-<div>
-    <a style="float: right;"><img src="/webstatic/html5_gray32.png"></a>
-    <a style="float: right;" href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/I_heart_validator.png"></a>
-    <a style="float: right;"> | </a>
-    <a style="float: right;" href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/valid_css.gif"></a>
-    <a style="float: right;" href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/valid_xhtml_v1.gif"></a>
+<div class="footer-www-tags">
+    <a ><img src="/webstatic/html5_gray32.png"></a>
+    <a href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/I_heart_validator.png"></a>
+    <hr style="width: 1px;height: 18px;display: inline-block;margin: 0 4px;background-color: #444;">
+    <a href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/valid_css.gif"></a>
+    <a href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/valid_xhtml_v1.gif"></a>
+
+    <style>
+      .footer-www-tags a {
+        float: right;
+      }
+      .footer-www-tags * {
+        vertical-align: top;
+      }
+    </style>
 </div>
 
 <div style="/*margin: 0 auto;*/margin: 4px 0 0 8px;float: right;">
