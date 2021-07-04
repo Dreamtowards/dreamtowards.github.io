@@ -205,11 +205,11 @@ Relation mentor & Generic Developer.
 </div>
 
 <div class="footer-www-tags">
-    <a ><img src="/webstatic/html5_gray32.png"></a>
-    <a href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/I_heart_validator.png"></a>
-    <hr style="width: 1px;height: 18px;display: inline-block;margin: 0 4px;background-color: #444;">
-    <a style="margin-top: 1px;" href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/valid_css.gif"></a>
-    <a style="margin-top: 1px;" href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/valid_xhtml_v1.gif"></a>
+    <a style="margin-top: 1px;"><img src="/webstatic/html5_gray32.png"></a>
+    <a style="margin-top: 1px;" href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/I_heart_validator.png"></a>
+    <hr style="width: 1px;height: 12px;display: inline-block;margin: 0 4px;background-color: #444;">
+    <a href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/valid_css.gif"></a>
+    <a href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/valid_xhtml_v1.gif"></a>
 
     <style>
       .footer-www-tags * {
