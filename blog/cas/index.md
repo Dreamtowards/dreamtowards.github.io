@@ -208,8 +208,8 @@ Relation mentor & Generic Developer.
     <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=200&t=t&d=c24h2ZCm-nJriSLvI3SZwuQtcx5PE1Yqk3v-ysPveQc'></script>
 </div>
 
-<a style="float: right;"><img src="/_static/html5_gray32.png"></a>
-<a style="float: right;" href="https://validator.w3.org/check?uri=referer"><img src="/_static/I_heart_validator.png"></a>
+<a style="float: right;"><img src="/webstatic/html5_gray32.png"></a>
+<a style="float: right;" href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/I_heart_validator.png"></a>
 <a style="float: right;"> | </a>
-<a style="float: right;" href="https://validator.w3.org/check?uri=referer"><img src="/_static/valid_css.gif"></a>
-<a style="float: right;" href="https://validator.w3.org/check?uri=referer"><img src="/_static/valid_xhtml_v1.gif"></a>
+<a style="float: right;" href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/valid_css.gif"></a>
+<a style="float: right;" href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/valid_xhtml_v1.gif"></a>
