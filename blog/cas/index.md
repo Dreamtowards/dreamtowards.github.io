@@ -208,14 +208,12 @@ Relation mentor & Generic Developer.
     <a ><img src="/webstatic/html5_gray32.png"></a>
     <a href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/I_heart_validator.png"></a>
     <hr style="width: 1px;height: 18px;display: inline-block;margin: 0 4px;background-color: #444;">
-    <a href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/valid_css.gif"></a>
-    <a href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/valid_xhtml_v1.gif"></a>
+    <a style="margin-top: 1px;" href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/valid_css.gif"></a>
+    <a style="margin-top: 1px;" href="https://validator.w3.org/check?uri=referer"><img src="/webstatic/valid_xhtml_v1.gif"></a>
 
     <style>
-      .footer-www-tags a {
-        float: right;
-      }
       .footer-www-tags * {
+        float: right;
         vertical-align: top;
       }
     </style>
