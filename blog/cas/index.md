@@ -22,7 +22,10 @@
 - `20210703` `[language-design]` Whay value-objects.?
 - `20210704` `[language]` Simple Intro if Grlang.
 
-<script style="float: right;" type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=t&d=c24h2ZCm-nJriSLvI3SZwuQtcx5PE1Yqk3v-ysPveQc&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
+<div style="float: right;display: inline-block;">
+    <script  type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=t&d=c24h2ZCm-nJriSLvI3SZwuQtcx5PE1Yqk3v-ysPveQc&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
+
+</div>
 
 [comment]: <> (## Infs)
 
