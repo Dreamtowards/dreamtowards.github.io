@@ -12,16 +12,16 @@
 
 <small>*202106*</small>
 - `20210630` [My BrandNew External HardDriver.](/blog/202106/my_brandnew_external_harddriver) `[ordinary]`
-- `20210631` [Setup GoogleAnalytics on GithubPages](/blog/202106/setup_googleanalytics_on_githubpages)  `[emBullshits]`
+- `20210631` [Setup GoogleAnalytics on GithubPages](/blog/202106/setup_googleanalytics_on_githubpages)  `[meanless]`
 
 
 <small>*202107*</small>
-- `20210701` biexpr parse spec-ed method <sup>`[syntax-analyze]`</sup>
-- `20210702` Most error from early optimstic. <sup>`[refactoring]`</sup>
-- `20210703` Whay value-objects.?  <sup>`[language-design]`</sup>
-- `20210704` Simple Intro if Grlang. <sup>`[grlang]`</sup>
-- `20210704` x86 Assembly Instructions. <sup>`[asm|compilers]`</sup>
-- `20210704` CPP GCC Memory Model. <sup>`[cpp]`</sup>
+- `20210701` biexpr parse spec-ed method `[syntax-analyze]`
+- `20210702` Most error from early optimstic. `[refactoring]`
+- `20210703` Whay value-objects.?  `[language-design]`
+- `20210704` Simple Intro of Grlang. `[grlang]`
+- `20210704` x86 Assembly Instructions. `[asm|compilers]`
+- `20210704` CPP GCC Memory Model. `[cpp]`
 
 [comment]: <> (## Infs)
 
