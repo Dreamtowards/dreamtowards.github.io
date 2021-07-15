@@ -4,6 +4,8 @@
 
 This, is a deprecated way to parse bi-expr, because it's over high-leveled, bad flexibility, unnecessary special cases.
 
+this way is referred from "2週間でできる! スクリプト言語の作り方 / Two Weeks Homemade Scripting Language" - 千叶 滋 / チバ シゲル  (Chiba Shigeru).
+
 but, might there still have a meanness to talk about this.
 
 ##

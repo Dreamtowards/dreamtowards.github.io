@@ -117,8 +117,46 @@ and copies the value referred to by its second argument into the location referr
          v-----+
     mov arg1, arg2
 
+## Basic Instructions
+
+```
+# mov arg1, arg2      // copies arg2 into arg1.
+        ^----+    
+  Examples:
+  mov eax, ebp-0x8   // bad. stored an address..
+  mov eax, [ebp-0x8] // good. as expected, copied the value from dereference of the address.
 
 
+# add arg1, arg2
+        ^---= (arg1 + arg2)  
+  Examples:
+  add eax, 0x5    // eax-before: 10, eax-after: 15.
+        
+# sub arg1, arg2
+        ^---= (arg1 - arg2)
+
+# push arg        // push arg1 onto the stack-top: dec esp, then put data.
+
+# pop reg         // move the stack-top element into the register 
+
+# lea reg, addr   // load effective address.  ??? load value of the memory address into the register.
+
+```
+
+- mov *arg1*, *arg2*  
+  copy the actually arg2 value onto the arg1. if arg2 is an address, then use dereference to read value then just pass value.
+- add *arg1*, *arg2*  
+  result = (arg1+arg2), stored on arg1.
+- push *arg*  
+- pop *reg*
+
+
+### Instruction Address
+
+Every instruction has an instruction address. 
+this is the area in memory where the instruction is stored. 
+the EIP register a.k.a. instruction pointer, always contains the address of the instruction that is currently being executed.
+the computer will execute whatever the instruction pointer is pointing to, and then the instruction pointer will be moved to the next instruction
 
 
 #### Refers

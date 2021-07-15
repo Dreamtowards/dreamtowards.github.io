@@ -17,11 +17,13 @@
 
 <small>*202107*</small>
 - `20210701` biexpr parse spec-ed method `[syntax-analyze]`
-- `20210702` Most error from early optimstic. `[refactoring]`
-- `20210703` Whay value-objects.?  `[language-design]`
+- `20210702` Most error from early overed optimizations. `[refactoring]`
+- `20210703` Whay value-objects.?  `[language-designess]`
 - `20210704` Simple Intro of Grlang. `[grlang]`
 - `20210704` x86 Assembly Instructions. `[asm|compilers]`
 - `20210704` CPP GCC Memory Model. `[cpp]`
+- `20210707` Think about PC, Laptops, Tablets. `[devices]`
+- `20210707` Package or Namespace `[language-designess]`
 
 [comment]: <> (## Infs)
 
