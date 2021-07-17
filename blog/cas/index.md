@@ -2,10 +2,19 @@
 
 ## Involved Projects
 
-- GTA-SA re.ver.  
+
+- GTA-SA re.ver.
+  <details markdown="1"><summary style="font-size: 11px;">more</summary>
+  
+  Grand Theft Auto: SanAndreas. Re.Version.
+  <small>
+    - OpenGL CoreProfile
+    - Bullet Physics
+    - Cplusplus CPP17 GCC
+  </small><br></details>
 
 
-- Grlang (alias, non-openness)
+- Grlang (long-progress. alias, non-openness)
 
 
 - Powerboard
@@ -13,10 +22,10 @@
   
   Let *Calendar,Notes,Tasks/Reminders,Cards,Dailylogs* compose "Together", 
   in a Generic-Specification. you can use it offline or online, even use it without special software are allowed. 
-  All records are .md files organized by yourself.<br><br>
+  All records are .md files organized by yourself.<br>
   
-  </small></details>
-  
+  </small></details><br>
+
 
 - Recordism
   <details><summary style="font-size: 11px;">more</summary><small markdown="1">
