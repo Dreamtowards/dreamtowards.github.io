@@ -9,20 +9,22 @@
 
 
 - Powerboard
-  <details><summary class="no-marker"><small>more</small></summary><small markdown="1">
+  <details><summary style="font-size: 11px;">more</summary><small markdown="1">
   
-    Let *Calendar,Notes,Tasks/Reminders,Cards,Dailylogs* compose "Together", in a Generic-Specification. you can use it offline or online, even use it without special software are allowed. All records are .md files organized by yourself.
+  Let *Calendar,Notes,Tasks/Reminders,Cards,Dailylogs* compose "Together", 
+  in a Generic-Specification. you can use it offline or online, even use it without special software are allowed. 
+  All records are .md files organized by yourself.<br><br>
   
   </small></details>
   
 
 - Recordism
-  <details><summary class="no-marker"><small>more</small></summary><small markdown="1">
+  <details><summary style="font-size: 11px;">more</summary><small markdown="1">
   
-  A Website Visitor-Access-Recorder. 
-  ***Identify visitor*** by Fingerprint, Cookie-Id, Ip. 
-  ***Track visitor*** in many events: visibility-changed, url-changed, link-click, custom-events... tracking keepalive-time, is-online... 
-  ***Collect visitor info*** maximized: Source-Url(referrer), Browser(languages timezone vendor, sizes..), Device-platform, user-agent, Screen(sizes, color-bits), time, title, url, Ip-info(city, isp, location...).. </small>
+  A Visitor&Access Recorder for websites. 
+  ***Identify visitor*** by Fingerprint, Cookie-Id, Ip... 
+  ***Track visitor*** behaviors and lot events. detect online-duration/time and status
+  ***Record visitor*** max information: Source-Info, Network-Info, Location-Info, Browser-Info, Device-Info, Screen-Info, Page-Info..<br>
   
   </small></details>
 
@@ -218,10 +220,3 @@ Relation mentor & Generic Developer.
 </details>
 <br>
 
-
-<style>
-
-.no-marker > summary::-webkit-details-marker {
-  display: none;
-}
-</style>
