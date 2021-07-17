@@ -4,7 +4,27 @@
 
 - GTA-SA re.ver.  
 
+
 - Grlang (alias, non-openness)
+
+
+- Powerboard  
+  <details><summary><small>more</small></summary><small markdown="1">
+  
+    Compose *Calendar,Notes,Reminders,Cards,Tasks,DailyLogs* together, suit on one-body, in a Generic-Form-Specification which is extensible, portable, you can use it offline or online, you can even use it without special software.  
+    the Board is composed by markdown `.md` files inside the board-root-folder or inner-folders you wanted, every md file represent one or more `Record`, each record can have their `Record-Attribute` such as Id, Dates, Labels...  
+    It's use basic file system to store the Board, but in impl, database cache can always been use.
+  </small></details>
+  
+
+- Recordism
+  <details><summary><small>more</small></summary><small markdown="1">
+  
+  A Website Visitor-Access-Recorder. 
+  ***Identify visitor*** by Fingerprint, Cookie-Id, Ip. 
+  ***Track visitor*** in many events: visibility-changed, url-changed, link-click, custom-events... tracking keepalive-time, is-online... 
+  ***Collect visitor info*** maximized: Source-Url(referrer), Browser(languages timezone vendor, sizes..), Device-platform, user-agent, Screen(sizes, color-bits), time, title, url, Ip-info(city, isp, location...).. </small>
+  </small></details>
 
 [comment]: <> (- microcraft)
 
