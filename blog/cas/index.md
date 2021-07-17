@@ -10,25 +10,25 @@
   <small>
     - OpenGL CoreProfile
     - Bullet Physics
-    - Cplusplus CPP17 GCC
-  </small><br></details>
+    - Cplusplus CPP17 GCC<br>
+  </small></details>
 
 
 - Grlang (long-progress. alias, non-openness)
 
 
 - Powerboard
-  <details><summary style="font-size: 11px;">more</summary><small markdown="1">
+  <details><summary style="font-size: 11px;">details</summary><small markdown="1">
   
   Let *Calendar,Notes,Tasks/Reminders,Cards,Dailylogs* compose "Together", 
   in a Generic-Specification. you can use it offline or online, even use it without special software are allowed. 
   All records are .md files organized by yourself.<br>
   
-  </small></details><br>
+  </small></details>
 
 
 - Recordism
-  <details><summary style="font-size: 11px;">more</summary><small markdown="1">
+  <details><summary style="font-size: 11px;">details</summary><small markdown="1">
   
   A Visitor&Access Recorder for websites. 
   ***Identify visitor*** by Fingerprint, Cookie-Id, Ip... 
@@ -98,21 +98,21 @@
 ***L1***
 
 - **czm** <sup>[Home](http://czm.sfclub.cc/archives/) [GH](http://czm.sfclub.cc/archives/) </sup>  
-C++ compiler adv. assembly. &wtness
+  <small>C++ compiler adv. assembly. &wtness</small>
 
--  **m8 | MeiVinEight | 夏雨** <sup>[GH](MeiVinEight)</sup>  
-java bytecode compile. 3rd EffJav reflection framework.
+- **m8 | MeiVinEight | 夏雨** <sup>[GH](MeiVinEight)</sup>  
+  <small>java bytecode compile. 3rd EffJav reflection framework.</small>
 
 ***L2***
 
 - **Usamoi Minakami** <sup>[GH](https://github.com/Usamoi) [EM](usamoi@outlook.com) [Home](https://usamoi.com/) </sup>  
-Language Conception. ACM holder.
+  <small>Language Conception. ACM holder.</small>
 
 - **AmemiyaSigure | 秋雨落** <sup>[GH](https://github.com/AmemiyaSigure) [Home](https://blog.rain.cx/) </sup>  
-Relation mentor & Generic Developer.
+  <small>Relation mentor & Generic Developer.</small>
 
 - **Donald D. Nevermore** <sup>@donaldnevermore [GH](https://github.com/donaldnevermore) </sup>  
-  suspective
+  <small>suspective</small>
 
 
 <details markdown="1" style="margin-top: 24px;">
