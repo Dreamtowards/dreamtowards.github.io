@@ -27,6 +27,7 @@
   </small></details>
 
 
+
 - Recordism
   <details><summary style="font-size: 11px;">details</summary><small markdown="1">
   
@@ -54,7 +55,8 @@
 - `20210704` x86 Assembly Instructions. `[asm|compilers]`
 - `20210704` CPP GCC Memory Model. `[cpp]`
 - `20210707` Think about PC, Laptops, Tablets. `[devices]`
-- `20210707` Package or Namespace `[language-designess]`
+- `20210712` Got. the TypecHub Philips 1v4 `[devices]`
+- `20210714` Grlang questions and answers. `[grlang]`
 
 [comment]: <> (## Infs)
 

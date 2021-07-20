@@ -1,4 +1,7 @@
 
+# Grlang Q&A. in Jul 2021. midmo.
+Posted on 20210715. Tags: Grlang.
+
 # Goals
 
 ### Applicative Goals
@@ -53,11 +56,11 @@
 
 
 
-# Global Organize
+# Global Organization
 
 ### Namespace or Package?
 
-Package. because Clearness.
+Package. because Clearness of organization.
 
 Namespace always meant a big scope. in programming history C++ and even in C#.
 
@@ -105,7 +108,7 @@ Its more clear, safety.
 
 # OOP
 
-### About OOP.?
+## About OOP.?
 
 The OOP, it's a convenient and well-used 'tool', it's conducive to modeling.
 
@@ -114,7 +117,7 @@ The OOP involves Inheritances, Instances, .. which is kind of high-level.
 
 We try to make OOP as an extra-mainly feature, but keep Essential-Design in mind.
 
-### Inheritances. single or multiple.?
+## Inheritances. single or multiple.?
 
 ```
 class EntitySheep : EntityCreature {
@@ -128,7 +131,7 @@ class EntitySheep : EntityCreature {
 
 ```
 
-### Class Member Function, Variable.
+## Class Member. about Function, Variable.?
 
 ```
 class TestEntity {
@@ -149,9 +152,9 @@ class TestEntity {
 }
 ```
 
-### How present static member in a class.?
+## How present static member in a class.?
 
-### Setter and Getter .?
+## Setters and Getters .?
 
 no field-access-style Getter/Setter. because it's actually functions. don't hide hidden-danger behind.
 
@@ -165,7 +168,7 @@ Field Modify Monitor are available by using the stdlib.
         String name;
     }
 
-### Function Overwrite.? the func-signature
+## Function Overwrite.? the func-signature
 
 the Function is actually a Variable, but just like a sort of instructions.
 the function Parameters and Return-Type is just variable type.
@@ -175,17 +178,17 @@ the problem is, since this 2 reason, the function can't been Overwritten by same
 
 the solution not available yet.
 
-### Function Default Arguments.?
+## Function Default/Optical Arguments.?
 
-### Function VarArgs.?
+## Function VarArgs.?
 
-### Implicit Constructors.?
+## Implicit Constructors.?
 
-### How visibility control? default public or private.? use public/private/protected keywords.?
+## How visibility control? default public or private.? use public/private/protected keywords.?
 
-### Expr-Operators Override.?
+## Expr-Operators Override.?
 
-### Inner Classes.?
+## Inner Classes.?
 
 
 # Programming 
