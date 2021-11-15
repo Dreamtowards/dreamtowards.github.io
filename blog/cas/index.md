@@ -7,45 +7,69 @@
   <details markdown="1"><summary style="font-size: 11px;">more</summary>
   
   Grand Theft Auto: SanAndreas. Re.Version.
-  <small>
+  <small markdown="1">
     - OpenGL CoreProfile
     - Bullet Physics
     - Cplusplus CPP17 GCC<br>
   </small></details>
 
 
-- Grlang (long-progress. alias, non-openness)
+- Grlang
+  <details markdown="1"><summary style="font-size: 11px;">more</summary>
+  
+  \*Topix         | Predicated Release Date
+  ---             | ---
+  HeapObject (OOP)| `2021-Q4-Aug`
+  StackObject     | `2021-Q4-Sept`
+  Pointers / SpecialReferences | `2021-Q4-Sept`
+  Generics (ReifiedGenerics, ConstValarg Generics) | `2021-Q4-Oct`
+  Value-Type (Flat Struct) | `2021-Q4-Oct`
+  JIT MachineCode Compilation from Stkbas instructions | `2021-Q4-Nov`
+
+  </details>
 
 
-- Powerboard
+[comment]: <> (- Powerboard)
+[comment]: <> (  <details><summary style="font-size: 11px;">details</summary><small markdown="1">)
+[comment]: <> (  Let *Calendar,Notes,Tasks/Reminders,Cards,Dailylogs* compose "Together", )
+[comment]: <> (  in a Generic-Specification. you can use it offline or online, even use it without special software are allowed. )
+[comment]: <> (  All records are .md files organized by yourself.<br>)
+[comment]: <> (  </small></details>)
+
+
+
+- Timelime
   <details><summary style="font-size: 11px;">details</summary><small markdown="1">
-  
-  Let *Calendar,Notes,Tasks/Reminders,Cards,Dailylogs* compose "Together", 
-  in a Generic-Specification. you can use it offline or online, even use it without special software are allowed. 
-  All records are .md files organized by yourself.<br>
-  
-  </small></details>
 
+  Timeline Calendar. flex and precious to view/operates.
+
+  </small></details>
 
 
 - Recordism
   <details><summary style="font-size: 11px;">details</summary><small markdown="1">
-  
-  A Visitor&Access Recorder for websites. 
-  ***Identify visitor*** by Fingerprint, Cookie-Id, Ip... 
+
+  A Visitor&Access Recorder for websites.
+  ***Identify visitor*** by Fingerprint, Cookie-Id, Ip...
   ***Track visitor*** behaviors and lot events. detect online-duration/time and status
   ***Record visitor*** max information: Source-Info, Network-Info, Location-Info, Browser-Info, Device-Info, Screen-Info, Page-Info..<br>
-  
+
   </small></details>
 
 [comment]: <> (- microcraft)
 
 ## _posts.
 
-<small>*202106*</small>
-- `20210630` [My BrandNew External HardDriver.](/blog/202106/my_brandnew_external_harddriver) `[ordinary]`
-- `20210631` [Setup GoogleAnalytics on GithubPages](/blog/202106/setup_googleanalytics_on_githubpages)  `[meanless]`
 
+<small>*202110*</small>
+- `20211005` [setup https for http apis.](/blog/202110/21a40/setup-https4http.md) `[ordinary|apis]`
+- `20211006` ldv. string literal. `[langdesg]`
+- `20211031` [lds. oop. static keyword for members.](/blog/202110/ld-oop-statickw-for-members.md) `[langdesg|langsyntax]`
+
+
+<small>*202108*</small>
+- `20210823` [JavaCompiler processunderstanding.](/blog/202108/21a34/javac-analysis) `[javac|review]`
+- `20210827` My viewpoint on module, package, namespace. `[langsyntax]`
 
 <small>*202107*</small>
 - `20210701` biexpr parse spec-ed method `[syntax-analyze]`
@@ -58,7 +82,20 @@
 - `20210712` Got. the TypecHub Philips 1v4 `[devices]`
 - `20210714` Grlang questions and answers. `[grlang]`
 
+<small>*202106*</small>
+- `20210630` [My BrandNew External HardDriver.](/blog/202106/my_brandnew_external_harddriver) `[ordinary]`
+- `20210631` [Setup GoogleAnalytics on GithubPages](/blog/202106/setup_googleanalytics_on_githubpages)  `[meanless]`
+
+
+
+
 [comment]: <> (## Infs)
+
+<br><br>
+
+## *_updates.
+
+- `21a34`<sup>2108c</sup> 
 
 <br><br>
 
@@ -99,11 +136,13 @@
 
 ***L1***
 
-- **czm** <sup>[Home](http://czm.sfclub.cc/archives/) [GH](http://czm.sfclub.cc/archives/) </sup>  
-  <small>C++ compiler adv. assembly. &wtness</small>
+[comment]: <> (- **m8 | MeiVinEight | 夏雨** <sup>[GH]&#40;MeiVinEight&#41;</sup>  )
+[comment]: <> (  <small>java bytecode compile. 3rd EffJav reflection framework.</small>)
 
-- **m8 | MeiVinEight | 夏雨** <sup>[GH](MeiVinEight)</sup>  
-  <small>java bytecode compile. 3rd EffJav reflection framework.</small>
+- **Takahashi Kouyou** <sup>[GH](https://github.com/KouyouX) </sup>  
+  <small>lexicalist</small>
+
+
 
 ***L2***
 
@@ -120,39 +159,19 @@
 <details markdown="1" style="margin-top: 24px;">
   <summary> et. ce tera. </summary> 
 
-  - Chanots <sup>[GH](https://github.com/G0ld2N) </sup>  
-    &kdns
-
-  - Kevin CHEN <sup>[GH](https://github.com/KevinZonda) </sup>  
-    funnyguy
-  
-  - Chanshiyu <sup>[Home](https://chanshiyu.com/) </sup>
-  
+[comment]: <> (  - Chanots <sup>[GH]&#40;https://github.com/G0ld2N&#41; </sup>)
+[comment]: <> (  - Kevin CHEN <sup>[GH]&#40;https://github.com/KevinZonda&#41; </sup>)
+[comment]: <> (  - Chanshiyu <sup>[Home]&#40;https://chanshiyu.com/&#41; </sup>)
+[comment]: <> (- TheBadZhang <sup>[Home]&#40;https://thebadzhang.top/&#41; </sup>)
+[comment]: <> (- CompexStudio <sup> [Home]&#40;https://complexstudio.net/&#41; </sup>)
+[comment]: <> (  - Glavo <sup>[GH]&#40;https://github.com/Glavo&#41; </sup>)
   - Trii Hsia <sup>[Home](https://yumoe.com/) </sup>
-  
   - *Lang J. Ron*
-  
   - Makito's Notebook <sup>[Home](https://keep.moe/) </sup>
-  
   - Ayaka Neko <sup>[Home](https://neko.ayaka.moe/) </sup>
-  
-  - Lowsfish <sup>[Home](https://lowsfish.com/) </sup>  
-    clture
-  
-  - Chris <sup>[Home](https://chrisoft.org/) </sup>  
-    clture
-
-  - TheBadZhang <sup>[Home](https://thebadzhang.top/) </sup>  
-    basic graphics, convex.
-    
-  - CompexStudio <sup> [Home](https://complexstudio.net/) </sup>
-  
+  - Lowsfish <sup>[Home](https://lowsfish.com/) </sup>
+  - Chris <sup>[Home](https://chrisoft.org/) </sup>
   - DavinciEvans <sup>[Home](https://davincievans.top/) [GH](https://github.com/DavinciEvans) </sup>
-
-  - **Glavo** <sup>[GH](https://github.com/Glavo) </sup>  
-    jdk news.
-    
-  - Tachibana Kanade
 
 </details>
 
@@ -231,3 +250,32 @@
 </details>
 <br>
 
+
+[comment]: <> (Proj | Date)
+[comment]: <> (---  | ---)
+[comment]: <> (Gymcontroller | Use of Gyroscope of Mobile Device, Controlling PC interfaces.)
+[comment]: <> (Recordism     | Records and Track website visitor Every Info.)
+[comment]: <> (Powerboard    |)
+[comment]: <> (Mediaforum    | )
+
+
+DS
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://dreamtowards.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>

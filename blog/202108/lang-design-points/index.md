@@ -1,5 +1,5 @@
 
-## Functional
+## Functionality
 
 ### Stack Alloc - Object Creation.
 
@@ -40,6 +40,13 @@ T obj = new T(..);  // Heap, Reference.
 
 Dereference `*expr` ? Address `&expr`
 
+### Tuple, Multiple Return-Type.
+
+```
+// Rust
+
+```
+
 ## Interface
 
 ### Program-Arguments
@@ -59,7 +66,7 @@ fn main() { println!( std::env::args() ); }
 
 ## Syntax
 
-### Scope End, the Representation
+### Scope End, the 'word' instead 'bdr' Representation
 
 ruby, VB are use `end` keyword as a scope encloser.
 
@@ -73,3 +80,16 @@ but sometimes its still have some problem in practice, its might caused by some 
 2. Not Clear Enough
 
 Considerable solution: initialized_list<T> in cpp.
+
+### the do-while statement
+
+the do-while stmt are stand for 'do sth at least once'.
+```
+do {
+   ...
+} while (cond);
+```
+but does it really working.? does it make sence.? does it leads code been wrong?
+
+
+### typeof(T) vs. T.class
