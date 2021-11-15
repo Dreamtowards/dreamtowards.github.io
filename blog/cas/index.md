@@ -11,7 +11,8 @@
     - OpenGL CoreProfile
     - Bullet Physics
     - Cplusplus CPP17 GCC<br>
-  </small></details>
+  </small>
+  </details>
 
 
 - Grlang
@@ -29,13 +30,14 @@
   </details>
 
 
-[comment]: <> (- Powerboard)
-[comment]: <> (  <details><summary style="font-size: 11px;">details</summary><small markdown="1">)
-[comment]: <> (  Let *Calendar,Notes,Tasks/Reminders,Cards,Dailylogs* compose "Together", )
-[comment]: <> (  in a Generic-Specification. you can use it offline or online, even use it without special software are allowed. )
-[comment]: <> (  All records are .md files organized by yourself.<br>)
-[comment]: <> (  </small></details>)
-
+<!--
+- Powerboard
+  <details><summary style="font-size: 11px;">details</summary><small markdown="1">
+  Let *Calendar,Notes,Tasks/Reminders,Cards,Dailylogs* compose "Together", 
+  in a Generic-Specification. you can use it offline or online, even use it without special software are allowed. 
+  All records are .md files organized by yourself.<br>
+  </small></details>
+-->
 
 
 - Timelime
@@ -61,8 +63,9 @@
 ## _posts.
 
 
-<small>*202110*</small>
-- `20211005` [setup https for http apis.](/blog/202110/21a40/setup-https4http.md) `[ordinary|apis]`
+<small>*202110-11*</small>
+- `2111-14` [linux transfer files.](/blog/202111/linux-transfer-files.md) `[casual]`
+- `2110-05` [let http-api support https.](/blog/202110/21a40/setup-https4http.md) `[casual]`
 - `20211006` ldv. string literal. `[langdesg]`
 - `20211031` [lds. oop. static keyword for members.](/blog/202110/ld-oop-statickw-for-members.md) `[langdesg|langsyntax]`
 
@@ -250,16 +253,16 @@
 </details>
 <br>
 
+<!--
+Proj | Date
+---  | ---
+Gymcontroller | Use of Gyroscope of Mobile Device, Controlling PC interfaces.
+Recordism     | Records and Track website visitor Every Info.
+Powerboard    |
+Mediaforum    | 
+-->
 
-[comment]: <> (Proj | Date)
-[comment]: <> (---  | ---)
-[comment]: <> (Gymcontroller | Use of Gyroscope of Mobile Device, Controlling PC interfaces.)
-[comment]: <> (Recordism     | Records and Track website visitor Every Info.)
-[comment]: <> (Powerboard    |)
-[comment]: <> (Mediaforum    | )
 
-
-DS
 <div id="disqus_thread"></div>
 <script>
     /**
