@@ -1,6 +1,5 @@
 
-Post on Aug 7, 2021.  
-Tags: langdv, lambda
+Post on Aug 7, 2021. / [langdv, lambda]
 
 # Lambda in Java JDK8
 

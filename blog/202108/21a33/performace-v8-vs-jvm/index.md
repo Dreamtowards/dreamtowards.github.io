@@ -1,5 +1,6 @@
 
 # V8 vs. JVM Hotspot Performance Test.
+Pushed on 22 Aug, 2021. [jks]
 
 Many people says that V8 is so effective, "Why V8 So Fast"..   
 I actually dont believe so much, think, Javascript(EMCAS) even doesn't have a int or float, just all high-level objects, how can it been fast..?
@@ -7,7 +8,7 @@ I actually dont believe so much, think, Javascript(EMCAS) even doesn't have a in
 So let's test.
 
 #### Rules
-*We will use In-Program-Timer instead of Operation-System-External-Timer etc, because we only want test for test-code-execution, regardless of syntax-parse-process of js or compile-process of java.*
+*We will use In-Program-Timer instead of Operation-System-External-Timer etc, because we only want test for sample-code-execution, regardless of syntax-parse-process of js or compile-process of java.*
 
 ```
 Runtime: (x86_64)
