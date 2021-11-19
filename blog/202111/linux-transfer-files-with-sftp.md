@@ -1,6 +1,6 @@
 
 
-## Linux Transfer Files.
+## Linux Transfer Files with SFTP.
 _211114_
 
 There enumerated several approaches to transfer files between Linux Server and your Local Computer.
@@ -60,3 +60,5 @@ sftp> put -r <local_file>
 ## referencing
 
 https://www.digitalocean.com/community/tutorials/how-to-use-sftp-to-securely-transfer-files-with-a-remote-server
+
+https://superuser.com/questions/1497309/why-lrzsz-didnt-work-in-putty-or-mobaxterm

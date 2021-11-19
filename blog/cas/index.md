@@ -64,7 +64,7 @@
 
 
 <small>*202110-11*</small>
-- `2111-14` [linux transfer files.](/blog/202111/linux-transfer-files) `[casual]`
+- `2111-14` [linux transfer files with sftp.](/blog/202111/linux-transfer-files-with-sftp) `[casual]`
 - `2110-05` [let http-api support https.](/blog/202110/21a40/setup-https-for-http) `[casual]`
 - `20211031` [lds. oop. static keyword for members.](/blog/202110/ld-oop-statickw-for-members) `[langdesg|langsyntax]`
 - `20211006` ldv. string literal. `[langdesg]`
