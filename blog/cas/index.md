@@ -64,30 +64,30 @@
 
 
 <small>*202110-11*</small>
-- `2111-14` [linux transfer files.](/blog/202111/linux-transfer-files.md) `[casual]`
-- `2110-05` [let http-api support https.](/blog/202110/21a40/setup-https4http.md) `[casual]`
+- `2111-14` [linux transfer files.](/blog/202111/linux-transfer-files) `[casual]`
+- `2110-05` [let http-api support https.](/blog/202110/21a40/setup-https-for-http) `[casual]`
+- `20211031` [lds. oop. static keyword for members.](/blog/202110/ld-oop-statickw-for-members) `[langdesg|langsyntax]`
 - `20211006` ldv. string literal. `[langdesg]`
-- `20211031` [lds. oop. static keyword for members.](/blog/202110/ld-oop-statickw-for-members.md) `[langdesg|langsyntax]`
 
 
 <small>*202108*</small>
-- `20210823` [JavaCompiler processunderstanding.](/blog/202108/21a34/javac-analysis) `[javac|review]`
 - `20210827` My viewpoint on module, package, namespace. `[langsyntax]`
+- `20210823` [JavaCompiler processunderstanding.](/blog/202108/21a34/javac-analysis) `[javac|review]`
 
 <small>*202107*</small>
-- `20210701` biexpr parse spec-ed method `[syntax-analyze]`
-- `20210702` Most error from early overed optimizations. `[refactoring]`
-- `20210703` Whay value-objects.?  `[language-designess]`
-- `20210704` Simple Intro of Grlang. `[grlang]`
-- `20210704` x86 Assembly Instructions. `[asm|compilers]`
-- `20210704` CPP GCC Memory Model. `[cpp]`
-- `20210707` Think about PC, Laptops, Tablets. `[devices]`
-- `20210712` Got. the TypecHub Philips 1v4 `[devices]`
 - `20210714` Grlang questions and answers. `[grlang]`
+- `20210712` Got. the TypecHub Philips 1v4 `[devices]`
+- `20210707` Think about PC, Laptops, Tablets. `[devices]`
+- `20210704` CPP GCC Memory Model. `[cpp]`
+- `20210704` x86 Assembly Instructions. `[asm|compilers]`
+- `20210704` Simple Intro of Grlang. `[grlang]`
+- `20210703` Whay value-objects.?  `[language-designess]`
+- `20210702` Most error from early overed optimizations. `[refactoring]`
+- `20210701` biexpr parse spec-ed method `[syntax-analyze]`
 
 <small>*202106*</small>
-- `20210630` [My BrandNew External HardDriver.](/blog/202106/my_brandnew_external_harddriver) `[ordinary]`
 - `20210631` [Setup GoogleAnalytics on GithubPages](/blog/202106/setup_googleanalytics_on_githubpages)  `[meanless]`
+- `20210630` [My BrandNew External HardDriver.](/blog/202106/my_brandnew_external_harddriver) `[ordinary]`
 
 
 
@@ -282,3 +282,5 @@ Mediaforum    |
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+

@@ -1,7 +1,7 @@
 
-## Let 'plain' HTTP accesses by HTTPS.
+## Let 'plain' HTTP accessed by HTTPS.
 
-recently, I want let some http-api supports https. cuz lots 'stupid' things required https, e.g. modern-android-requests, https-website-requests.
+Recently, I want let some http-api support https. cuz lots of 'stupid' things required https, e.g. modern-android-requests, https-website-requests.
 
 but there seems not that 'easy'. I tried setup https for springboot, and literally failed:
 - self-signed certifications are useless. needs viewers manually permits trust-the-certification. its 'ridiculous'.
@@ -18,7 +18,6 @@ thus, Just let the http-server handles https-requests, then redirects them to th
 
 nginx configuration:
 ```
-
 server {
     ...
     location /apiv1/ {
@@ -26,10 +25,11 @@ server {
         proxy_redirect http://1.2.3.4:1234/ /;  # rewrite url
     }
 }
-```
-Effect:   
-access `https://hostname.com/apiv1/actual_api`  
-redirect to -> `http://1.2.3.4:1234/actual_api`
 
-note that `proxy_redirect` is important also, it 'recovers' the url.
+# Affect:
+# accessing:   `https://hostname.com/apiv1/actual_api` 
+# redirect to: `http://1.2.3.4:1234/actual_api`
+```
+
+Note that `proxy_redirect` property is important also, it rewrites the 'literal' url path. (i.e. 'recovery' the url from external-exposed-url to internal-wanted-url)
 
