@@ -7,7 +7,7 @@ There enumerated several approaches to transfer files between Linux Server and y
 - **lrzsz**  
   - \+ convenient. 
   - \- only supported by several special terminal. (e.g. Xshell. but not supported by OSX system terminal or putty)
-- **wget** (receive) + **<http_server>** (send)
+- **wget** (receive) + *http_server* (send)
   - \- not convenient or safety enough.
 - **sftp**
   - \+ safety, essential, reliable.
@@ -18,9 +18,9 @@ This time we mainly talk about SFTP approach, which is Essential, Reliable and S
 
 ## SFTP.
 
-SFTP, is 'Secure/SSH File Transfer Protocol', compared to FTP, SFTP having a underlying secure connection and 'powered' with SSH.
+SFTP, or 'Secure/SSH File Transfer Protocol', compared to FTP, SFTP having a underlying secure connection which 'powered' with SSH.
 
-since you can already connect to SSH and have an FTP server, then you should be able to connect SFTP by:
+since you can already connect to SSH and an FTP server existed, then you should be able to connect SFTP by:
 
 ```
 sftp -oPort=port username@ip_or_hostname

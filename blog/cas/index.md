@@ -73,8 +73,8 @@
 <small>*202108*</small>
 - `20210827` My viewpoint on module, package, namespace. `[langsyntax]`
 - `20210823` [JavaCompiler processunderstanding.](/blog/202108/21a34/javac-analysis) `[javac|review]`
-- `20210822` [performance test v8 vs. jvm.](/blog/202108/21a33/performace-v8-vs-jvm) `[notserious]` 
-- `20210807` [lambda expr review](/blog/202108/21a31/rfd-lambda-impl) `[review]`
+- `2108-22` [performance test v8 vs. jvm.](/blog/202108/21a33/performace-v8-vs-jvm) `[notserious]` 
+- `2108-07` [CN. lambda expr review](/blog/202108/21a31/rfd-lambda-impl) `[review]`
 
 <small>*202107*</small>
 - `20210714` Grlang questions and answers. `[grlang]`
