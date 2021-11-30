@@ -41,6 +41,10 @@
   - MicroUSB OTG, Cable *1
   - USB-C OTG, Cable *1
   - Mi-Band Charger. *1
+  - USB-MicroUSB Cable *1
+  - USB-Lighting Cable *1
+  - USB-C Cable short *1
+  - Type-C 5A-Current Cable *1
   - USB-Hub, Eth+USB*3, USB2. Hub Cable *1
   - PHILLIPS TypeC Hub, USB3Gen1, USB2, HDMI. *1
   - 3.5mm Audio DIRECT drive-two. *1.
