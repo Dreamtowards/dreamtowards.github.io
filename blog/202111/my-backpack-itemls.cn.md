@@ -1,6 +1,6 @@
 # 背包 _of_ 我, 物品库存列
 
-_普通使用_
+普通使用
 - 雨伞
 - 水杯/保温杯 (Model _MI-2018-lite_)
 - 纸张 (一小袋)
@@ -28,13 +28,14 @@ _普通使用_
   - CleanClear™ 控油纸 (一小盒, JP Manufacture)
   - 中国大陆储蓄卡 2+
   - 中国大陆身份证
+  - _Opt'_. 学生卡, 学生证
 - 资料盒, 几本册子
 
-_进阶使用_
+进阶使用
 - VETUS瑞士镊子 *1
 
 
-_工具_
+工具
 - Cables
   - USB-B to USB-A, Cable *1 (for MIDI Devices, Printers)
   - MicroUSB OTG, Cable *1
