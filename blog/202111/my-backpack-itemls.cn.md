@@ -86,5 +86,8 @@
   <small>MACOSX Catalina 10.15. | Parallels Windows10 | Startup Disk 512G, NTFS Supported.</small>
 - WD MyPassport 2T HDD HardDeiver. _Opt'_
 
+<br>
 
-`Items might not be always carried which noted _Opt'_ notation.`
+---
+Items might not be always carried which noted _Opt'_ notation.  
+Several items are not listed above. caused of privacy related or trivial.
