@@ -1,6 +1,6 @@
 # 背包 _of_ 我, 物品库存列
 
-普通使用
+_普通使用_
 - 雨伞
 - 水杯/保温杯 (Model _MI-2018-lite_)
 - 纸张 (一小袋)
@@ -30,11 +30,11 @@
   - 中国大陆身份证
 - 资料盒, 几本册子
 
-进阶使用
+_进阶使用_
 - VETUS瑞士镊子 *1
 
 
-工具
+_工具_
 - Cables
   - USB-B to USB-A, Cable *1 (for MIDI Devices, Printers)
   - MicroUSB OTG, Cable *1
