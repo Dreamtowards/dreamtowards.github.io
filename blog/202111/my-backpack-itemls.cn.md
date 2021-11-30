@@ -44,6 +44,8 @@
   - USB-Hub, Eth+USB*3, USB2. Hub Cable *1
   - PHILLIPS TypeC Hub, USB3Gen1, USB2, HDMI. *1
   - 3.5mm Audio DIRECT drive-two. *1.
+  - _Opt;_. HP Wired Mouse. Silent. *1
+  - Mi 65W GAN Charger Type-C. Compact. *1.
 - Solid
   - TF-card to SD-card, Converter-card *3
   - USB-C to Micro-USB, Converter-Plug *1
@@ -51,6 +53,7 @@
   - FAST™ Wireless Portable-WLAN to USB. *1
   - Mi Small Fan. Compact. USB Supply. *1
   - Mi Small Lighting LED. USB Supply. *1
+  - Wireless trivial Bluetooth Earphone. <small>Not belong to real audio.</small>
   - UGREEN TF, SD Card Interface.
   - Intel™ Compute Stick. STCK.. 10W, USB, TF, HDMI Port.  
     <small>Ubuntu 16.04 x86_64 Built-in. IDE SuitSeries</small>
@@ -78,3 +81,6 @@
 - Macbookpro model16p3d, RAM16G, Intel i5 4cores. 2 Thunderbolt Ports. Intel Irisp 645, 13.3-inch.  
   <small>MACOSX Catalina 10.15. | Parallels Windows10 | Startup Disk 512G, NTFS Supported.</small>
 - WD MyPassport 2T HDD HardDeiver. _Opt'_
+
+
+`Items might not be always carried which noted _Opt'_ notation.`
