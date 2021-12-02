@@ -22,14 +22,14 @@ nginx configuration:
 server {
     ...
     location /apiv1/ {
-        proxy_pass http://1.2.3.4:1234/;        # setup proxy
+        proxy_pass http://1.2.3.4:1234/internal_api/;        # setup proxy
         proxy_redirect http://1.2.3.4:1234/ /;  # rewrite url
     }
 }
 
 # Affect:
-# accessing:   `https://hostname.com/apiv1/actual_api` 
-# redirect to: `http://1.2.3.4:1234/actual_api`
+# accessing:   `https://hostname.com/apiv1/...` 
+# redirect to: `http://1.2.3.4:1234/internal_api/...`
 ```
 
 Note that `proxy_redirect` property is important also, it rewrites the 'literal' url path. (i.e. 'recovery' the url from external-exposed-url to internal-wanted-url)

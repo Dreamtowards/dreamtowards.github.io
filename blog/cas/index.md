@@ -64,6 +64,7 @@
 
 
 <small>*202110-11*</small>
+- `2111.30` [my backpack item ls.](/blog/202111/my-backpack-itemls.cn) [lift]
 - `2111-14` [linux transfer files with sftp.](/blog/202111/linux-transfer-files-with-sftp) `[casual]`
 - `2110-05` [let http-api support https.](/blog/202110/21a40/setup-https-for-http) `[casual]`
 - `20211031` [lds. oop. static keyword for members.](/blog/202110/ld-oop-statickw-for-members) `[langdesg|langsyntax]`
@@ -263,26 +264,4 @@ Recordism     | Records and Track website visitor Every Info.
 Powerboard    |
 Mediaforum    | 
 -->
-
-
-<div id="disqus_thread"></div>
-<script>
-    /**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-    /*
-    var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    */
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://dreamtowards.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
 
